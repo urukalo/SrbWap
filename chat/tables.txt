@@ -1,0 +1,113 @@
+CREATE TABLE `chat_users` ( 
+ `id` int(11) NOT NULL auto_increment,
+ `login` text NOT NULL,
+ `pass` text NOT NULL,
+ `name` text NOT NULL,
+ `sex` text NOT NULL,
+ `bday` int(11) default '0',
+ `bmonth` int(11) default '0',
+ `byear` int(11) default '0', 
+ `photo` text,
+ `live` text,
+ `mobile` text,
+ `operator` text,
+ `email` text,
+ `wapsite` text,
+ `website` text,
+ `icq` int(11) default '0',
+ `about` text,
+ `status` text,
+ `posts` int(11) NOT NULL default '0',
+ `vposts` int(11) NOT NULL default '0',
+ `nmsgs` int(11) default '0',
+ `tupdate` int(11) default '0',
+ `fsize` text,
+ `ban` text,
+ `breason` text,
+ `btime` text,
+ `room` text,
+ `moder` int(11) default '0',
+ `admin` int(11) default '0',
+ `rtime` int(11) NOT NULL default '0',
+ `ltime` int(11) NOT NULL default '0',
+ `ip` text, `soft` text,
+ PRIMARY KEY (`id`)
+ ) TYPE=MyISAM ; 
+################################################# 
+CREATE TABLE `chat_settings` ( 
+`id` INT NOT NULL AUTO_INCREMENT ,
+ `mod` TEXT,
+ `var` TEXT,
+ `val1` TEXT,
+ `val2` TEXT,
+ `val3` INT(11) default '0',
+ PRIMARY KEY ( `id` )
+ ); 
+#################################################
+CREATE TABLE `chat_messages` ( 
+`id` int(11) NOT NULL auto_increment,
+ `login` text NOT NULL,
+ `msg` text NOT NULL, 
+`pr_from` text,
+ `pr_to` text,
+ `time` text NOT NULL,
+ `room` text,
+ PRIMARY KEY (`id`) 
+);
+#################################################
+CREATE TABLE `chat_meets` ( 
+`id` int(11) NOT NULL auto_increment,
+ `login` text NOT NULL,
+ `title` text NOT NULL,
+ `content` text NOT NULL,
+ `organizatory` text NOT NULL,
+ PRIMARY KEY (`id`) 
+) TYPE=MyISAM ;
+#################################################
+CREATE TABLE `chat_letters` (
+ `id` int(11) NOT NULL auto_increment,
+ `from_user` text NOT NULL,
+ `to_user` text NOT NULL,
+ `subject` text, `letter` text NOT NULL,
+ `time` text NOT NULL,
+ `new` int(11) default NULL,
+ PRIMARY KEY (`id`)
+ ) TYPE=MyISAM ; 
+#################################################
+CREATE TABLE `chat_vict` (
+ `id` int(11) NOT NULL auto_increment,
+ `login` text NOT NULL,
+ `msg` text NOT NULL,
+ `pr_from` text,
+ `pr_to` text,
+ `vopros` text,
+ `answered` text,
+ `time` TEXT NOT NULL, 
+PRIMARY KEY (`id`)
+ );
+#################################################
+CREATE TABLE `chat_ignor` (
+ `id` int(11) NOT NULL auto_increment,
+ `loginid` int(11) NOT NULL default '0',
+ `user` text NOT NULL,
+ PRIMARY KEY (`id`)
+ ) TYPE=MyISAM; 
+#################################################
+CREATE TABLE `chat_ques` (
+ `id` int(11) NOT NULL auto_increment,
+ `vopros` text NOT NULL,
+ `otvet` text NOT NULL, 
+PRIMARY KEY (`id`)
+ );
+#################################################
+INSERT INTO chat_settings
+ VALUES ( 0, 'room', 'vict', 'vict', 'vict', '' ) ;
+ INSERT INTO chat_settings
+ VALUES ( 0, 'room', 'room1', 'room1', 'room1', '' ) ;
+ INSERT INTO chat_settings
+ VALUES ( 0, 'room', 'room2', 'room2', 'room2', '' ) ;
+ INSERT INTO chat_settings
+ VALUES ( 0, 'room', 'room3', 'room3', 'room3', '' ) ;
+ INSERT INTO chat_settings
+ VALUES ( 0, 'room', 'room4', 'room4', 'room4', '' ) ; 
+################################################# 

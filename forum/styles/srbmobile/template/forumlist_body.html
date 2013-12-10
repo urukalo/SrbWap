@@ -1,0 +1,73 @@
+<table cellspacing="0" width="100%" >
+
+<!-- BEGIN forumrow -->
+	<!-- IF forumrow.S_IS_CAT -->
+		<tr>
+			<td><p><a href="{forumrow.U_VIEWFORUM}">{forumrow.FORUM_NAME}</a></p></td>
+			
+		</tr>
+	<!-- ELSEIF forumrow.S_IS_LINK -->
+
+		<tr>
+			<td width="50" align="center">{forumrow.FORUM_FOLDER_IMG}</td>
+			<td>
+				<!-- IF forumrow.FORUM_IMAGE -->
+					{forumrow.FORUM_IMAGE}
+				<!-- ENDIF -->
+				<a href="{forumrow.U_VIEWFORUM}">{forumrow.FORUM_NAME}</a>
+				<p>{forumrow.FORUM_DESC}</p>
+			</td>
+			<!-- IF forumrow.CLICKS -->
+				<td colspan="3" align="center">{L_REDIRECTS}: {forumrow.CLICKS}</td>
+			<!-- ELSE -->
+				<td colspan="3" align="center">&nbsp;</td>
+			<!-- ENDIF -->
+		</tr>
+	<!-- ELSE -->
+
+		<!-- IF forumrow.S_NO_CAT -->
+			<tr>
+				<td colspan="2"><h4>{L_FORUM}</h4></td>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+		<!-- ENDIF -->
+    <!-- IF S_DISPLAY_BIRTHDAY_LIST -->
+        
+        <!-- ELSE -->
+		<tr>
+			<td width="50" align="center">{forumrow.FORUM_FOLDER_IMG}</td>
+			<td width="100%"><p>
+				<!-- IF forumrow.FORUM_IMAGE -->
+					{forumrow.FORUM_IMAGE}
+				<!-- ENDIF -->
+				<a href="{forumrow.U_VIEWFORUM}">{forumrow.FORUM_NAME}</a> ({forumrow.TOPICS}/{forumrow.POSTS})
+                <br/>
+				<i>[{forumrow.FORUM_DESC}]</i>
+                <!-- IF forumrow.MODERATORS -->
+					<br/>(<strong>{forumrow.L_MODERATOR_STR}:</strong> {forumrow.MODERATORS})
+				<!-- ENDIF -->
+                
+                
+
+				<!-- IF forumrow.SUBFORUMS and forumrow.S_LIST_SUBFORUMS -->
+					<strong>{forumrow.L_SUBFORUM_STR}</strong> {forumrow.SUBFORUMS}<br/>
+				<!-- ENDIF -->
+                           
+                <!-- IF forumrow.LAST_POST_TIME -->
+					<!-- IF forumrow.U_UNAPPROVED_TOPICS --><a href="{forumrow.U_UNAPPROVED_TOPICS}">{UNAPPROVED_IMG}</a>&nbsp;<!-- ENDIF -->				
+                    <br/> {forumrow.LAST_POSTER_FULL} [{forumrow.LAST_POST_TIME}]
+						<!-- IF not S_IS_BOT --><a href="{forumrow.U_LAST_POST}">{LAST_POST_IMG}</a><!-- ENDIF -->
+					
+				<!-- ELSE -->
+					{L_NO_POSTS}
+				<!-- ENDIF -->
+			</p></td>
+		</tr>
+        <!-- ENDIF -->
+	<!-- ENDIF -->
+<!-- BEGINELSE -->
+	<tr>
+		<td colspan="5" align="center"><p>{L_NO_FORUMS}</p></td>
+	</tr>
+<!-- END forumrow -->
+</table>

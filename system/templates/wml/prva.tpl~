@@ -1,0 +1,23 @@
+<a href="?put=info{$atr}" title="{$lang_display.Info}">{$slika.new}<br/>{$lang_display.Info}</a>
+<br/>
+
+<a href="{$sitedata.lpurl}">{$slika.lp}<br/>{$lang_display.lp}</a>
+<br/>
+
+<a href="?put=druzenje{$atr}" title="{$lang_display.Druzenje}">{$slika.druzenje}<br/>{$lang_display.Druzenje}</a>
+<br/>
+
+<a href="?put=mms{$atr}" title="{$lang_display.MMS}">{$slika.mms}<br/>{$lang_display.MMS}</a>
+<br/>
+
+<a href="?put=wp{$atr}" title="{$lang_display.MojWaP}">{$slika.wap}<br/>{$lang_display.MojWaP}</a>
+<br/>
+
+<a href="?put=download{$atr}" title="{$lang_display.Download}">{$slika.download}<br/>{$lang_display.Download}</a>
+<br/>
+
+<a href="?put=link{$atr}" title="{$lang_display.Linkovi}">{$slika.link}<br/>{$lang_display.Linkovi}</a>
+<br/>
+
+<a href="?put=kontakt{$atr}" title="{$lang_display.Kontakt}">{$slika.kontakt}<br/>{$lang_display.Kontakt}</a>
+<br/>

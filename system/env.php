@@ -1,0 +1,13 @@
+<?
+//konstante
+$pwd="/home/milan/wap/";
+$index="http://wap.srb.rs/";
+$includedir=$pwd."include/";
+$sistemdir=$pwd."system/";
+$langdir=$pwd."lang/";
+$countdir=$systemdir."counter/";
+$wurfldir=$systemdir."wurfl/";
+$smartydir=$systemdir."Smarty/";
+$picdir=$pwd."pic/";
+$temedir=$pwd."teme/";
+?>

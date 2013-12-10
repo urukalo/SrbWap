@@ -1,0 +1,111 @@
+<!-- INCLUDE mcp_header.html -->
+
+<hr />
+
+<form method="post" id="mcp_ban_group" action="{U_POST_ACTION}">
+
+<table cellspacing="0">
+	<tr>
+		<td width="100%">
+			<!-- IF TOTAL_ROWS -->{TOTAL_ROWS} <!-- ENDIF -->
+			<!-- IF PAGE_NUMBER --><!-- IF PAGINATION --> &bull; <a href="#" onclick="jumpto(); return false;" title="{L_JUMP_TO_PAGE}">{PAGE_NUMBER}</a> &bull; <span>{PAGINATION}</span><!-- ELSE --> &bull; {PAGE_NUMBER}<!-- ENDIF --><!-- ENDIF -->
+		</td>
+	</tr>
+</table>
+
+<hr />
+<table cellspacing="0">
+	<tr>
+		<th>{L_GROUPS}</th>
+	</tr>
+</table>
+
+<hr />
+<table cellspacing="0">
+	<tr>
+		<td class="row3">{L_USERS_LIST}</th>
+	</tr>
+</table>
+
+<!-- IF S_STATUS_ALERT -->
+<hr />
+<table cellspacing="0">
+	<tr>
+		<td class="row2">
+		<!-- BEGIN alertrow -->
+			{alertrow.MESSAGE}
+		<!-- END alertrow -->
+		</td>
+	</tr>
+</table>
+<!-- ENDIF -->
+
+<!-- IF S_NO_BANNED_GROUP -->
+<hr />
+<table cellspacing="0">
+	<tr>
+		<td class="row1"><strong>{L_SELECT_GROUP}:</strong><br />
+			<select name="banned_group_id">{S_GROUP_OPTIONS}</select><br />
+			<input class="button1" type="submit" name="banned_group" value="{L_SUBMIT}" />
+		</td>
+	</tr>
+</table>
+<!-- ENDIF -->
+
+<!-- BEGIN banlist -->
+<hr />
+<table cellspacing="0">
+	<!-- IF banlist.S_ROW_COUNT is even --><tr class="row1"><!-- ELSE --><tr class="row2"><!-- ENDIF -->
+		<td>{L_MARK} <input type="checkbox" name="mark[]" value="{banlist.ID}" /><br />
+			{banlist.USER_PROFILE}<br />
+			{L_DEFAULT_GROUP}: {banlist.DEFAULT_GROUP}<br />
+			{L_BAN_START}: {banlist.BAN_START}</td>
+	</tr>
+</table>
+
+<!-- BEGINELSE -->
+<hr />
+<table cellspacing="0">
+	<tr>
+		<td class="row2" align="center"><span class="gen">{L_NO_PERMA_BANNED_USERS}</span></td>
+	</tr>
+</table>
+
+<!-- END banlist -->
+
+<hr />
+<table cellspacing="0">
+<!-- IF NEXT_PAGE or PREVIOUS_PAGE -->
+	<tr>
+		<td>
+			<!-- IF NEXT_PAGE --><div style="float: {S_CONTENT_FLOW_END};"><a href="{NEXT_PAGE}">{L_NEXT}</a></div><!-- ENDIF -->
+			<!-- IF PREVIOUS_PAGE --><div style="float: {S_CONTENT_FLOW_BEGIN};"><a href="{PREVIOUS_PAGE}">{L_PREVIOUS}</a><!-- ENDIF -->
+		</td>
+	</tr>
+</table>
+<!-- ENDIF -->
+
+<table cellspacing="0">
+	<tr>
+		<td>
+				<!-- IF TOTAL_ROWS -->{TOTAL_ROWS} <!-- ENDIF -->
+				<!-- IF PAGE_NUMBER --><!-- IF PAGINATION --> &bull; <a href="#" onclick="jumpto(); return false;" title="{L_JUMP_TO_PAGE}">{PAGE_NUMBER}</a> &bull; <span>{PAGINATION}</span><!-- ELSE --> &bull; {PAGE_NUMBER}<!-- ENDIF --><!-- ENDIF -->
+		</td>
+	</tr>
+</table>
+
+<table cellspacing="0">
+	<tr>
+		<td>
+		<select name="action">
+			{S_ACTION_OPTIONS}
+		</select>&nbsp;
+		<input class="button1" type="submit" name="submit" value="{L_SUBMIT}" />
+		<div style="float: {S_CONTENT_FLOW_END};"><a href="#" onclick="marklist('mcp_ban_group', 'mark', true); return false;">{L_MARK_ALL}</a> :: <a href="#" onclick="marklist('mcp_ban_group', 'mark', false); return false;">{L_UNMARK_ALL}</a></div>
+		</td>
+	</tr>
+</table>
+
+</form>
+
+<!-- INCLUDE mcp_footer.html -->

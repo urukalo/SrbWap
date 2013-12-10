@@ -1,0 +1,192 @@
+<?php
+//	@include 'analytics.admob.com.php';
+    $systemdir=$pwd."system/";
+    require($systemdir."env.php");
+
+//smarty
+    require ($smartydir.'Smarty.class.php');
+    $smarty = new Smarty;
+    $smarty->template_dir = $systemdir.'templates';
+    $smarty->compile_dir = $systemdir.'templates_c';
+    $smarty->cache_dir = $systemdir.'cache';
+    $smarty->config_dir = $systemdir.'configs';
+  //iskljuci ovo!!
+    $smarty->compile_check = true;
+    $smarty->debugging = true;
+    $smarty->debugging = false;
+
+//start
+//    $prviput=false;if (!isset($sid)) $prviput=true;
+
+//wurfl
+    include ($systemdir."wurfl.php");
+
+//phpbb integracija
+    define('PAGE_MAIN', true);
+    define('PWD', "");
+    include( $systemdir."phpbb.php" );
+
+//funkcije
+    include ($systemdir."funkcije.php");
+    $where ="loginid = ".$userdata['user_id'];$profildata=profildata("profil", $where);
+
+// citanje i setovanje sesija
+    define ("SID" ,'sid=' . $userdata['session_id']); $atr="&amp;".SID;
+
+// odredjivanje puta i ostalih indikatora
+    if (isset($HTTP_GET_VARS['put']))$put = $HTTP_GET_VARS['put']; else $put="prva";
+    $css = $HTTP_GET_VARS['css'];
+    $sput = $HTTP_GET_VARS['sput'];
+    $pocetak = $HTTP_GET_VARS['pocetak'];
+	if (!isset($kes)) $kes = 1;
+	if (!isset($w)) $w = 0;
+    if (isset($HTTP_GET_VARS['tema'])) $profildata['tema']=$HTTP_GET_VARS['tema'];
+    if (isset($HTTP_GET_VARS['stanica'])) $sitedata['stanica']=$HTTP_GET_VARS['stanica']; 
+    if (isset($HTTP_GET_VARS['tvdatum'])) $sitedata['tvdatum']=$HTTP_GET_VARS['tvdatum']; 
+    if (isset($HTTP_GET_VARS['ikonice'])) $profildata['ikonice']=$HTTP_GET_VARS['ikonice'];
+    if (!isset($profildata['tema']) || $profildata['tema'] == "" ) $profildata['tema']="standard";
+    if (!isset($profildata['ikonice'])|| $profildata['ikonice'] == "") $profildata['ikonice']="standardne";
+    if (isset($HTTP_GET_VARS['tmplate'])) { $profildata['tmplate']=$HTTP_GET_VARS['tmplate'];
+$atr=$atr."&amp;tmplate=".$profildata['tmplate'];}
+    elseif (!isset($profildata['tmplate'])|| $profildata['tmplate'] == "" || $userdata['user_id']=="-1"){
+	if ($myDevice->getDeviceCapability("html_wi_w3_xhtmlbasic")) $profildata['tmplate']= "xhtml";
+	else $profildata['tmplate']= "xhtml";
+	}
+
+	if (!isset ($HTTP_GET_VARS['url'])) {
+      if ($put=="last10") {$url = "http://wap.srb.rs/forum/feed.php";
+      $put="rssread";
+    }}
+    else { $url=$HTTP_GET_VARS['url'];
+      if ($put=="prognoza") $url="http://serbian.wunderground.com/auto/rss_full/global/stations/".$HTTP_GET_VARS['url'].".xml" ;
+      else $put="rssread";}
+
+//jezik
+	if (isset($HTTP_GET_VARS['lang'])) $userdata['user_lang']=$HTTP_GET_VARS['lang'];
+	if ($userdata['user_lang'] == 'serbian_cyrillic') include ($langdir."cir.php");
+	else if ($userdata['user_lang'] == 'serbian') include ($langdir."lat.php");
+    else include ($langdir."lat.php");
+
+//dozvole
+    if ($put=='admin' || $put=='op' ) $doz=1;
+    elseif ($put=='profil' || $put=='chata') $doz=5;
+    else $doz=10;
+
+//uzimanje slicica
+    if ( $myDevice->getDeviceCapability("gif")) $picext="gif";
+    else $picext="gif";
+
+$pdir = $picdir.$profildata['ikonice'];
+if(!($dp = @opendir("$pdir"))) {echo "<br/><b>Ne mogu da otvorim:</b> $pdir"; return("greska");}
+$file_array = array();
+while ($file = readdir ($dp))
+	{
+	if(substr($file,0,1) != '.' and $file == "indexz.wml")
+		{
+          list($naziv, $kusur)= explode(".", $file);
+		if ($kusur == $picext) $file_array[$naziv] =  '<img src="pic/'.$profildata['ikonice'].'/'.$file.'" alt="'.$naziv.'" />';
+		
+		//ukidanje slicica - PRIVREMENO
+		$file_array[$naziv]="";
+		}
+	}
+
+
+//provera logina
+    phbblogin();
+
+//ko si ti
+    $nick=$userdata['username'];
+    $profildata['status']="login"; if (profil($profildata)) ;//echo "LOGIN ne radi";
+    if ($nick == "Anonymous") $nick=""; $profildata['put']=$put;
+
+//zaglavlje
+    include ($systemdir."templates/".$profildata['tmplate']."/index.php");
+
+//login/profil ikonica/link
+	if ( !$userdata['session_logged_in'] )
+	{
+        $sitedata["lp"]="login"; $sitedata["lpurl"]="forum/login.php?redirect=../$atr&amp;s=$s\" title=\"".$lang_display[$login];
+        $file_array["lp"] =  '<img src="pic/'.$profildata['ikonice'].'/login.'.$picext.'" alt="login" />';
+        $lang_display["lp"]=$lang_display["login"];
+    }
+    else
+    {
+        $sitedata["lp"]="profil";$sitedata["lpurl"]="?put=profil$atr";
+        $file_array["lp"] =  '<img src="pic/'.$profildata['ikonice'].'/profil.'.$picext.'" alt="profil" />';
+        $lang_display["lp"]=$lang_display['profil'];
+    }
+    
+    //ponistavanje login slicice -PRIVREMENO RESENJE
+    $file_array["lp"]="";
+    $file_array["srblogo"]='<img src="pic/'.$profildata['ikonice'].'/srblogo.'.$picext.'" alt="[logo]" />';
+ //   $file_array["srblogo"]='<img src="pic/.ostale/krajina.gif" alt="[logo]" />';
+    if ($prviput){$sitedata["sput"] = $put;$put="pput"; }
+    if (!is_file($systemdir."templates/".$profildata['tmplate']."/$put.tpl")){$sitedata["sput"] = $put; $put = "nema";}
+//    ob_start();
+    if (is_file($includedir."$put.php")) include ($includedir."$put.php");
+//    ob_end_clean();
+
+//echo $put;
+
+// da pokusam brojac da ubacim
+ob_start();
+require ($systemdir."counter/phpcounter.php");
+$sitedata["brojac"] = ob_get_contents();
+ob_end_clean();
+
+//grupisanje podataka
+    $sitedata["ext"] = $profildata['tmplate'];
+    $sitedata["picext"] = $picext;
+    $sitedata["kusur"] = $kusur;
+    $sitedata["put"] = $put;
+    $sitedata["css"] = $profildata['tema'];
+    
+    $lang_display["pozdrav"] = $lang_display["Dobrodosli"]."<b>".$lang_display["SRBWap"]."</b><br/>";
+//    $lang_display["pozdrav"] = "<b>DA SE NE ZABORAVI<br/>Hrvatsko etnicko ciscenje Republike Srpske Krajine<br/>13ta godina<br/></b>";
+    
+//    $lang_display["pozdrav"] = "<b>Srecnu Novu 2009 Godinu<br/>Zeli Vam Srb W@P</b><br/>";
+//    $lang_display["pozdrav"] = "<b>Srecan Badnji Dan<br/>Zeli Vam Srb W@P</b><br/>";
+//   $lang_display["pozdrav"] = "<b>Srecnu Srpsku Novu 2008 Godinu<br/>Zeli Vam Srb W@P</b><br/>";
+//    $lang_display["pozdrav"] = "<b>Mir Boziji<br/>Hristos se rodi<br/>Vaistinu se rodi</b><br/>";
+//    $lang_display["pozdrav"] = '<b><img src="chat/emo/msn/rose.gif" alt=""/>drage dame<br/>srecan 8.mart</b><br/>';
+//    $lang_display["pozdrav"] = "<b>Hristos Vaskrese<br/>Vaistinu Vaskrese</b><br/>";
+
+//Google-Analytics
+	@include 'Google-Analytics.php';
+	$googleAnalyticsImageUrl = googleAnalyticsGetImageUrl();
+	$lang_display["pozdrav"] = $lang_display["pozdrav"].'<img src="'.$googleAnalyticsImageUrl .'" alt="" />';
+
+// jos jedan analizator
+//	$svasta = admob_request($admob_params);
+//	$lang_display["pozdrav"] = $lang_display["pozdrav"].$svasta;
+// i jos jedan
+//$lang_display["pozdrav"] = $lang_display["pozdrav"].'<img src="http://52773.track.mobilestats.net/trackimage.ashx?sid=52773&amp;ma_page='.$put.'" />';
+
+
+
+
+// kecho "a";
+//ubacivanje podataka u template 
+    $smarty->assign("title", "$title");
+    $smarty->assign("lang_display",$lang_display);
+    $smarty->assign("profildata",$profildata);
+    $smarty->assign("ext",$sitedata["ext"]);
+    $smarty->assign("atr",$atr);
+    $smarty->assign("put",$sitedata["put"]);
+    $smarty->assign("userdata",$userdata);
+    $smarty->assign("slika", $file_array);
+//    $smarty->assign("Device",$Device);
+    $smarty->assign("myDevice",$myDevice);
+    $smarty->assign("sitedata",$sitedata);
+
+
+//i kamera.. ton... akcija...
+    $smarty->display("index.tpl");
+    $profildata['status']="update"; if (profil($profildata)); //echo "UPDATE ne radi"; echo "UPDATE radi";
+
+//webtrace
+    @include 'phpwebtrace.php';
+
+	
+?>

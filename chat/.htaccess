@@ -1,0 +1,16 @@
+<Files ini.php>
+order allow,deny
+deny from all
+</Files>
+<Files room.inc.php>
+order allow,deny
+deny from all
+</Files>
+<Files vict.inc.php>
+order allow,deny
+deny from all
+</Files>
+<Files photos>
+order allow,deny
+deny from all
+</Files>

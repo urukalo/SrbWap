@@ -1,0 +1,2 @@
+{$sitedata.mmsgal}
+{$sitedata.mmsgalnav}

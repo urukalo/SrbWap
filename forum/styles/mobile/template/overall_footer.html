@@ -1,0 +1,26 @@
+<a href="{U_INDEX}" >{L_INDEX}</a><br/>
+				<!-- IF not S_IS_BOT -->
+					<!-- IF S_WATCH_FORUM_LINK -->
+<a href="{S_WATCH_FORUM_LINK}" <!-- IF S_WATCHING_FORUM --><!-- ELSE --><!-- ENDIF --> title="{S_WATCH_FORUM_TITLE}">{S_WATCH_FORUM_TITLE}</a><!-- ENDIF -->
+					<!-- IF U_WATCH_TOPIC -->
+<a href="{U_WATCH_TOPIC}" title="{L_WATCH_TOPIC}" <!-- IF S_WATCHING_TOPIC --><!-- ELSE --><!-- ENDIF -->>{L_WATCH_TOPIC}</a><!-- ENDIF -->
+					<!-- IF U_BOOKMARK_TOPIC -->
+<a href="{U_BOOKMARK_TOPIC}" title="{L_BOOKMARK_TOPIC}" class="icon-bookmark">{L_BOOKMARK_TOPIC}</a><!-- ENDIF -->
+					<!-- IF U_BUMP_TOPIC --><a href="{U_BUMP_TOPIC}" title="{L_BUMP_TOPIC}" >{L_BUMP_TOPIC}</a><!-- ENDIF -->
+				<!-- ENDIF -->
+			<br/><a href="{U_TEAM}">{L_THE_TEAM}</a> &bull; <!-- IF not S_IS_BOT --><a href="{U_DELETE_COOKIES}">{L_DELETE_COOKIES}</a> &bull; <!-- ENDIF --><br/>{S_TIMEZONE}
+		
+	
+
+
+	<br/> Powered by <a href="http://www.phpbb.com/">phpBB</a>
+		<!-- IF TRANSLATION_INFO --><br />{TRANSLATION_INFO}<!-- ENDIF -->
+		<!-- IF DEBUG_OUTPUT --><br />{DEBUG_OUTPUT}<!-- ENDIF -->
+		<!-- IF U_ACP --><br /><strong><a href="{U_ACP}">{L_ACP}</a></strong><!-- ENDIF -->
+	
+
+	<!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF -->
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!-- INCLUDE overall_header.html -->
+
+<h2>{PAGE_TITLE}</h2>
+
+<form method="post" action="{S_PROFILE_ACTION}" id="viewprofile">
+<div class="panel bg1<!-- IF S_ONLINE --> online<!-- ENDIF -->">
+	<div class="inner"><span class="corners-top"><span></span></span>
+
+	<!-- IF AVATAR_IMG -->
+		<dl class="left-box">
+			<!-- IF RANK_TITLE --><dd style="text-align: center;">{RANK_TITLE}</dd><!-- ENDIF -->
+			<!-- IF RANK_IMG --><dd style="text-align: center;">{RANK_IMG}</dd><!-- ENDIF -->
+		</dl>
+	<!-- ENDIF -->
+
+	<dl class="left-box details" style="width: 80%;">
+		<dd>
+			<!-- IF USER_COLOR --><span style="color: {USER_COLOR}; font-weight: bold;"><!-- ELSE --><span><!-- ENDIF -->{USERNAME}</span>
+			
+		</dd>
+		<!-- IF not AVATAR_IMG -->
+			<!-- IF RANK_TITLE --><dt>{L_RANK}:</dt> <dd>{RANK_TITLE}</dd><!-- ENDIF -->
+			<!-- IF RANK_IMG --><dt><!-- IF RANK_TITLE -->&nbsp;<!-- ELSE -->{L_RANK}:<!-- ENDIF --></dt> <dd>{RANK_IMG}</dd><!-- ENDIF -->
+		<!-- ENDIF -->
+		<!-- IF LOCATION --><dd><p>{LOCATION}</p></dd><!-- ENDIF --><br />
+		<!-- IF AGE --><dd><p>{AGE}</p></dd><!-- ENDIF --><br />
+		<!-- IF OCCUPATION --><dd><p>{OCCUPATION}</p></dd><!-- ENDIF --><br />
+		<!-- IF INTERESTS --><dd><p>{INTERESTS}</p></dd><!-- ENDIF --><br />
+
+		<!-- BEGIN custom_fields --><dd>{custom_fields.PROFILE_FIELD_VALUE}</dd><br /><!-- END custom_fields -->
+		<!-- IF S_USER_LOGGED_IN and S_ZEBRA -->
+			<!-- IF U_ADD_FRIEND and U_ADD_FOE-->
+				<dt>&nbsp;</dt> <dd><a href="{U_ADD_FRIEND}"><strong>{L_ADD_FRIEND}</strong></a></dd>
+				<dt>&nbsp;</dt> <dd><a href="{U_ADD_FOE}"><strong>{L_ADD_FOE}</strong></a></dd>
+			<!-- ELSE -->
+				<!-- IF U_REMOVE_FRIEND -->
+					<dt>&nbsp;</dt> <dd><a href="{U_REMOVE_FRIEND}"><strong>{L_REMOVE_FRIEND}</strong></a></dd>
+				<!-- ELSE -->
+					<dt>&nbsp;</dt> <dd><a href="{U_REMOVE_FOE}"><strong>{L_REMOVE_FOE}</strong></a></dd>
+				<!-- ENDIF -->
+			<!-- ENDIF -->
+		<!-- ENDIF -->
+	</dl>
+
+	<span class="corners-bottom"><span></span></span></div>
+</div>
+
+<!-- IF SIGNATURE -->
+<div class="panel bg1">
+	<div class="inner"><span class="corners-top"><span></span></span>
+
+		<h3>{L_SIGNATURE}</h3>
+
+		<div class="postbody"><div class="signature" style="border-top:none; margin-top: 0;">{SIGNATURE}</div></div>
+
+	<span class="corners-bottom"><span></span></span></div>
+</div>
+<!-- ENDIF -->
+
+</form>
+
+
+<!-- INCLUDE overall_footer.html -->

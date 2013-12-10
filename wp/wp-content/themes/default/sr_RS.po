@@ -1,0 +1,647 @@
+# Serbian translation for Wordpress' 2.9 default "Kubrick" theme
+# Copyright (C) 2009 WordPress
+# This file is distributed under the same license as the WordPress package.
+# Mihailo Stefanović <mst@mikis.org> 2005, Milan Dinić <milan@srpski.biz> 2007, 2008, 2009
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/theme\n"
+"POT-Creation-Date: 2009-05-18 17:54+0300\n"
+"PO-Revision-Date: 2009-12-19 22:36+0100\n"
+"Last-Translator: Milan Dinić <milan@srpski.biz>\n"
+"Language-Team: srpski.biz <milan@srpski.biz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Poedit-Language: Serbian\n"
+"X-Poedit-Country: SERBIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: 404.php:12
+msgid "Error 404 - Not Found"
+msgstr "Грешка 404 - Није пронађено"
+
+#: archive.php:16
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr "Архиве за категорију &#8216;%s&#8217;"
+
+#: archive.php:18
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "Чланци означени са &#8216;%s&#8217;"
+
+#: archive.php:20
+#, php-format
+msgid "Archive for %s|Daily archive page"
+msgstr "Архива за %s"
+
+#: archive.php:20
+#: index.php:17
+msgid "F jS, Y"
+msgstr "j. F Y."
+
+#: archive.php:22
+#, php-format
+msgid "Archive for %s|Monthly archive page"
+msgstr "Архива за %s"
+
+#: archive.php:22
+#: sidebar.php:33
+msgid "F, Y"
+msgstr "F, Y"
+
+#: archive.php:24
+#, php-format
+msgid "Archive for %s|Yearly archive page"
+msgstr "Архива за %s"
+
+#: archive.php:24
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:26
+msgid "Author Archive"
+msgstr "Архива аутора"
+
+#: archive.php:28
+msgid "Blog Archives"
+msgstr "Архиве блога"
+
+#: archive.php:33
+#: archive.php:53
+#: index.php:29
+#: search.php:16
+#: search.php:33
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Старији уноси"
+
+#: archive.php:34
+#: archive.php:54
+#: index.php:30
+#: search.php:17
+#: search.php:34
+msgid "Newer Entries &raquo;"
+msgstr "Новији уноси &raquo;"
+
+#: archive.php:39
+#: index.php:16
+#: search.php:24
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Стална веза ка %s"
+
+#: archive.php:40
+#: sidebar.php:30
+#: single.php:34
+msgid "l, F jS, Y"
+msgstr "l, j. F Y."
+
+#: archive.php:46
+#: index.php:23
+#: search.php:27
+#: single.php:26
+msgid "Tags:"
+msgstr "Ознаке:"
+
+#: archive.php:46
+#: index.php:23
+#: search.php:27
+#, php-format
+msgid "Posted in %s"
+msgstr "Објављено у %s"
+
+#: archive.php:46
+#: index.php:23
+#: search.php:27
+msgid "Edit"
+msgstr "Уреди"
+
+#: archive.php:46
+#: index.php:23
+#: search.php:27
+msgid "No Comments &#187;"
+msgstr "Нема коментара &#187;"
+
+#: archive.php:46
+#: index.php:23
+#: search.php:27
+msgid "1 Comment &#187;"
+msgstr "1 коментар &#187;"
+
+#: archive.php:46
+#: index.php:23
+#: search.php:27
+msgid "% Comments &#187;"
+msgstr "% коментара &#187;"
+
+#: archive.php:46
+#: index.php:23
+#: search.php:27
+msgid "Comments Closed"
+msgstr "Затворено за коментаре"
+
+#: archive.php:59
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Жао нам је али још увек нема чланака у категорији %s."
+
+#: archive.php:61
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Жао нам је али нема чланака са овим датумом."
+
+#: archive.php:64
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Жао нам је али још увек нема чланака од %s."
+
+#: archive.php:66
+msgid "No posts found."
+msgstr "Нема пронађених чланака."
+
+#: archives.php:17
+msgid "Archives by Month:"
+msgstr "Архива по месецима:"
+
+#: archives.php:22
+msgid "Archives by Subject:"
+msgstr "Архива по темама:"
+
+#: comments-popup.php:9
+#, php-format
+msgid "%1$s - Comments on %2$s"
+msgstr "%1$s - Коментари на %2$s"
+
+#: comments-popup.php:28
+msgid "Comments"
+msgstr "Коментари"
+
+#: comments-popup.php:30
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> довод за коментаре на овај чланак."
+
+#: comments-popup.php:33
+#, php-format
+msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is: <em>%s</em>"
+msgstr "<acronym title=\"Uniform Resource Identifier\">URI</acronym> за повратну везу на овај унос је: <em>%s</em>"
+
+#: comments-popup.php:51
+msgid "Comment"
+msgstr "Коментар"
+
+#: comments-popup.php:51
+msgid "Trackback"
+msgstr "Повратна веза"
+
+#: comments-popup.php:51
+msgid "Pingback"
+msgstr "Повратни пинг"
+
+#: comments-popup.php:51
+#, php-format
+msgid "by %1$s &#8212; %2$s @ <a href=\"#comment-%3$s\">%4$s</a>"
+msgstr "%1$s &#8212; %2$s у <a href=\"#comment-%3$s\">%4$s</a>"
+
+#: comments-popup.php:57
+msgid "No comments yet."
+msgstr "Још увек нема коментара."
+
+#: comments-popup.php:61
+msgid "Leave a comment"
+msgstr "Оставите коментар"
+
+#: comments-popup.php:62
+#, php-format
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: <code>%s</code>"
+msgstr "Редови и пасуси се преламају аутоматски, адреса е-поште се никада не приказује, дозвољене <acronym title=\"Hypertext Markup Language\">ХТМЛ</acronym> ознаке: <code>%s</code>"
+
+#: comments-popup.php:66
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Пријављени сте као <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Одјавите се са овог налога\">Одјава &raquo;</a>"
+
+#: comments-popup.php:70
+#: comments.php:72
+msgid "Name"
+msgstr "Име"
+
+#: comments-popup.php:75
+msgid "E-mail"
+msgstr "Е-пошта"
+
+#: comments-popup.php:80
+msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
+msgstr "<acronym title=\"Uniform Resource Identifier\">URL</acronym>"
+
+#: comments-popup.php:85
+msgid "Your Comment"
+msgstr "Ваш коментар"
+
+#: comments-popup.php:93
+msgid "Say It!"
+msgstr "Кажите!"
+
+#: comments-popup.php:98
+msgid "Sorry, the comment form is closed at this time."
+msgstr "Жао нам је, образац за унос коментара је тренутно искључен."
+
+#: comments-popup.php:103
+msgid "Close this window."
+msgstr "Затвори овај прозор."
+
+#: comments-popup.php:109
+#: single.php:65
+msgid "Sorry, no posts matched your criteria."
+msgstr "Жао нам је, ниједан чланак не одговара задатом критеријуму."
+
+#: comments-popup.php:113
+#, php-format
+msgid "Powered by <a href=\"%s\" title=\"Powered by WordPress, state-of-the-art semantic personal publishing platform\"><strong>WordPress</strong></a>"
+msgstr "Покреће <a href=\"%s\" title=\"Покреће Вордпрес, врхунска семантичка платформа за лично издаваштво\"><strong>Вордпрес</strong></a>"
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Овај чланак је заштићен лозинком. Унесите лозинку да бисте видели коментаре."
+
+#: comments.php:21
+msgid "No Responses"
+msgstr "Нема реаговања"
+
+#: comments.php:21
+msgid "One Response"
+msgstr "Једно реаговање"
+
+#: comments.php:21
+msgid "% Responses"
+msgstr "% реаговања"
+
+#: comments.php:21
+#, php-format
+msgid "to &#8220;%s&#8221;"
+msgstr "на &#8220;%s&#8221;"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "Затворено за коментаре."
+
+#: comments.php:53
+msgid "Leave a Reply"
+msgstr "Оставите одговор"
+
+#: comments.php:53
+#, php-format
+msgid "Leave a Reply for %s"
+msgstr "Оставите одговор на %s"
+
+#: comments.php:60
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Морате бити <a href=\"%s\">пријављени</a> да бисте оставили коментар."
+
+#: comments.php:67
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Пријављени сте као <a href=\"%1$s\">%2$s</a>."
+
+#: comments.php:67
+msgid "Log out of this account"
+msgstr "Одјавите се са овог налога"
+
+#: comments.php:67
+msgid "Log out &raquo;"
+msgstr "Одјава &raquo;"
+
+#: comments.php:72
+#: comments.php:75
+msgid "(required)"
+msgstr "(обавезно)"
+
+#: comments.php:75
+msgid "Mail (will not be published)"
+msgstr "Е-пошта (неће бити објављено)"
+
+#: comments.php:78
+msgid "Website"
+msgstr "Веб место"
+
+#: comments.php:82
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr "<strong>XHTML:</strong> Можете користити следеће ознаке: <code>%s</code>"
+
+#: comments.php:86
+msgid "Submit Comment"
+msgstr "Предај коментар"
+
+#: footer.php:12
+#, php-format
+msgid "%1$s is proudly powered by %2$s"
+msgstr "%1$s са поносом покреће %2$s"
+
+#: footer.php:14
+#, php-format
+msgid "%1$s and %2$s."
+msgstr "%1$s и %2$s."
+
+#: footer.php:14
+msgid "Entries (RSS)"
+msgstr "Уноси (RSS)"
+
+#: footer.php:14
+msgid "Comments (RSS)"
+msgstr "Коментари (RSS)"
+
+#: footer.php:15
+#, php-format
+msgid "%d queries. %s seconds."
+msgstr "%d упита. %s секунди."
+
+#: functions.php:156
+msgid "Custom Header"
+msgstr "Прилагођено заглавље"
+
+#: functions.php:169
+msgid "Close Color Picker"
+msgstr "Затвори изборник боја"
+
+#: functions.php:366
+msgid "Options saved."
+msgstr "Подешавања су сачувана."
+
+#: functions.php:369
+msgid "Customize Header"
+msgstr "Прилагоди заглавље"
+
+#: functions.php:383
+#: functions.php:390
+msgid "Save"
+msgstr "Сачувај"
+
+#: functions.php:384
+msgid "Font Color:"
+msgstr "Боја словног лика:"
+
+#: functions.php:384
+#, php-format
+msgid "Any CSS color (%s or %s or %s)"
+msgstr "Било која CSS боја (%s или %s или %s)"
+
+#: functions.php:385
+msgid "Upper Color:"
+msgstr "Горња боја:"
+
+#: functions.php:385
+#: functions.php:386
+#, php-format
+msgid "HEX only (%s or %s)"
+msgstr "Само HEX (%s или %s)"
+
+#: functions.php:386
+msgid "Lower Color:"
+msgstr "Доња боја:"
+
+#: functions.php:388
+msgid "Toggle Text"
+msgstr "Видљивост текста"
+
+#: functions.php:389
+msgid "Use Defaults"
+msgstr "Користи подразумевано"
+
+#: functions.php:398
+msgid "Font Color"
+msgstr "Боја словног лика"
+
+#: functions.php:399
+msgid "Upper Color"
+msgstr "Горња боја"
+
+#: functions.php:400
+msgid "Lower Color"
+msgstr "Доња боја"
+
+#: functions.php:401
+msgid "Revert"
+msgstr "Окрени"
+
+#: functions.php:402
+msgid "Advanced"
+msgstr "Напредно"
+
+#: functions.php:409
+msgid "Update Header"
+msgstr "Ажурирај заглавље"
+
+#: functions.php:415
+msgid "Font Color (CSS):"
+msgstr "Боја словног лика (CSS):"
+
+#: functions.php:416
+msgid "Upper Color (HEX):"
+msgstr "Горња боја (HEX):"
+
+#: functions.php:417
+msgid "Lower Color (HEX):"
+msgstr "Доња боја (HEX):"
+
+#: functions.php:418
+msgid "Select Default Colors"
+msgstr "Изабери подразумеване боје"
+
+#: functions.php:419
+msgid "Toggle Text Display"
+msgstr "Видљивост текста"
+
+#: index.php:20
+#: single.php:23
+msgid "Read the rest of this entry &raquo;"
+msgstr "Прочитајте остатак овог уноса &raquo;"
+
+#: index.php:35
+msgid "Not Found"
+msgstr "Није пронађено"
+
+#: index.php:36
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "Жао нам је, али тражите нешто што није овде."
+
+#: links.php:16
+msgid "Links:"
+msgstr "Везе:"
+
+#: page.php:15
+msgid "Read the rest of this page &raquo;"
+msgstr "Прочитајте остатак ове стране &raquo;"
+
+#: page.php:17
+#: single.php:25
+msgid "Pages:"
+msgstr "Стране:"
+
+#: page.php:22
+msgid "Edit this entry."
+msgstr "Уреди овај унос."
+
+#: search.php:13
+msgid "Search Results"
+msgstr "Резултати претраживања"
+
+#: search.php:39
+msgid "No posts found. Try a different search?"
+msgstr "Нема нађених чланака. Да покушате другу претрагу?"
+
+#: sidebar.php:16
+msgid "Author"
+msgstr "Аутор"
+
+#: sidebar.php:27
+#, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr "Тренутно прегледате архиву категорије %s."
+
+#: sidebar.php:30
+#, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the day %3$s."
+msgstr "Тренутно прегледате архиву блога <a href=\"%1$s\">%2$s</a> за дан %3$s."
+
+#: sidebar.php:33
+#, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for %3$s."
+msgstr "Тренутно прегледате архиву блога <a href=\"%1$s\">%2$s</a> за %3$s."
+
+#: sidebar.php:36
+#, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the year %3$s."
+msgstr "Тренутно прегледате архиву блога <a href=\"%1$s\">%2$s</a> за годину %3$s."
+
+#: sidebar.php:39
+#, php-format
+msgid "You have searched the <a href=\"%1$s/\">%2$s</a> blog archives for <strong>&#8216;%3$s&#8217;</strong>. If you are unable to find anything in these search results, you can try one of these links."
+msgstr "Претраживали сте архиву блога <a href=\"%1$s\">%2$s</a> за <strong>&#8216;%3$s&#8217;</strong>. Ако нисте у могућности да ишта пронађете у овим резултатима претраге, можете покушати неку од ових веза."
+
+#: sidebar.php:42
+#, php-format
+msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives."
+msgstr "Тренутно прегледате архиву блога <a href=\"%1$s\">%2$s</a>."
+
+#: sidebar.php:50
+msgid "Pages"
+msgstr "Стране"
+
+#: sidebar.php:52
+msgid "Archives"
+msgstr "Архиве"
+
+#: sidebar.php:58
+msgid "Categories"
+msgstr "Категорије"
+
+#: sidebar.php:64
+msgid "Meta"
+msgstr "Мета"
+
+#: sidebar.php:68
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "Ова страна је исправна по XHTML 1.0 Transitional стандарду"
+
+#: sidebar.php:68
+msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr "Исправан <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+
+#: sidebar.php:69
+msgid "XHTML Friends Network"
+msgstr "XHTML мрежа пријатеља"
+
+#: sidebar.php:69
+msgid "XFN"
+msgstr "XFN"
+
+#: sidebar.php:70
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Покреће Вордпрес, врхунска семантичка платформа за лично издаваштво."
+
+#: single.php:34
+#, php-format
+msgid "This entry was posted %1$s on %2$s at %3$s and is filed under %4$s."
+msgstr "Овај унос је објављен %1$s %2$s у %3$s под %4$s."
+
+#: single.php:35
+#, php-format
+msgid "You can follow any responses to this entry through the <a href='%s'>RSS 2.0</a> feed."
+msgstr "Можете пратити реаговања на овај чланак преко <a href='%s'>RSS 2.0</a> довода."
+
+#: single.php:39
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Можете <a href=\"#respond\">оставити реаговање</a> или <a href=\"%s\">повратну везу</a> са свог веб места."
+
+#: single.php:43
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Реаговања су тренутно онемогућена, али можете оставити <a href=\"%s\">повратну везу</a> са свог веб места."
+
+#: single.php:47
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Можете скочити на крај и оставити реаговање. Пинговање тренутно није дозвољено."
+
+#: single.php:51
+msgid "Both comments and pings are currently closed."
+msgstr "И коментари и пингови су тренутно онемогућени."
+
+#: single.php:53
+msgid "Edit this entry"
+msgstr "Уреди овај унос"
+
+#. Theme Name of an extension
+msgid "WordPress Default"
+msgstr "Подразумевана Вордпресова тема"
+
+#. Theme URI of an extension
+msgid "http://wordpress.org/"
+msgstr ""
+
+#. Description of an extension
+msgid "The default WordPress theme based on the famous <a href=\"http://binarybonsai.com/kubrick/\">Kubrick</a>."
+msgstr "Подразумевана Вордпресова тема заснована на чувеној теми <a href=\"http://binarybonsai.com/kubrick/\">Kubrick</a>."
+
+#. Author of an extension
+msgid "Michael Heilemann"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://binarybonsai.com/"
+msgstr ""
+
+#. Tags of an extension
+msgid "blue, custom header, fixed width, two columns, widgets"
+msgstr ""
+
+#~ msgid "Header Image and Color"
+#~ msgstr "Слика и боја заглавља"
+#~ msgid "%s RSS Feed"
+#~ msgstr "%s RSS извор"
+#~ msgid "%s Atom Feed"
+#~ msgstr "%s Atom извор"
+#~ msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
+#~ msgstr "Овај унос је објављен на %1$s у %2$s и стављен под %3$s."
+#~ msgid "Search for:"
+#~ msgstr "Претрага за:"
+#~ msgid "Search"
+#~ msgstr "Тражи"
+#~ msgid "<cite>%s</cite> Says:"
+#~ msgstr "<cite>%s</cite> Каже:"
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "Ваш коментар чека уређивање."
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s у %2$s "
+#~ msgid "edit"
+#~ msgstr "уреди"
+#~ msgid "&raquo; Blog Archive"
+#~ msgstr "&raquo; Архиве блога"
+#~ msgid "Permanent Link: %s"
+#~ msgstr "Стална веза: %s"
+#~ msgid "Sorry, no attachments matched your criteria."
+#~ msgstr "Жао нам је, ни један прилог не одговара задатом критеријуму."
+

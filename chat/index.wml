@@ -1,0 +1,17 @@
+<?php
+header("Content-Type: text/vnd.wap.wml");
+print('<?xml version="1.0" encoding="ISO-8859-1"?>'."\n");
+?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org//DTD//wml_1.1.xml">
+<wml>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+ <meta http-equiv="cache-control" content="no-cache"/> 
+ <meta name="MobileOptimized" content="width"/> 
+ </head>
+<card title="SRB W@P Chat">
+<p align="center">Dobro dosli na Srb W@P Chat<br/>
+<a href="index.php">Login</a>
+  </p>
+ </card>
+</wml>

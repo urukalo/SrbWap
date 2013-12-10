@@ -1,0 +1,692 @@
+
+
+
+              Stanje zaliha robe na dan 31.12.10 u prodavnici URUKALO
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+   1)    AL-GROSSO 024 BOMBONE v.pun SOUR MIX-PROZOR 2/100 PEZ  komad      10.00        22.00       220.00                  186.44
+   2)    ALEKS 04      ALEKSANDRIJA - STRUDLA MESANA RF 4/1     KG          1.91       290.00       554.48                  469.90
+   3)    APATIN 01     APATINSKO PIVO 2L 6/1                    KOM         3.00       132.00       396.00                  335.59
+   4)    APATIN 07     JELEN PIVO 1L 9/1                        KOM         9.00        95.00       855.00                  724.58
+   5)    APATIN 08     JELEN PIVO LIMENKA 0.5 24/1              KOM        16.00        60.00       960.00                  813.56
+   6)    API-PEK 01    DIABETINO 1kG x 5 sa kokosom             komad       0.89       415.00       369.35                  313.01
+   7)    API-PEK 06    DIABETINO sa cimetom 1kg x 5#            kg          1.00       415.00       415.00                  351.69
+   8)    ART 01        BOMBONE BLASY 2kg  6kg/1#                KG          2.40       359.00       863.04                  731.39
+   9)    ASKUS 001     TAAN ALVA BELA 250gr 18/#                komad       3.00       117.00       351.00                  297.46
+  10)    ASKUS 004     TAAN ALVA COKO 250gr 18/#                komad       3.00       117.00       351.00                  297.46
+  11)    BAMBI 002     PLAZMA KEKS 75gr x 32-BAMBI              KOM         3.00        37.00       111.00                   94.07
+  12)    BAMBI 003     PLAZMA KEKS 150gr x 48-BAMBI             KOM         2.00        72.00       144.00                  122.03
+  13)    BAMBI 004     PLAZMA KEKS 300gr x 24-BAMBI             KOM         3.00       141.00       423.00                  358.47
+  14)    BAMBI 006     PLAZMA MLEVENA 300gr x16-BAMBI           KOM         4.00       143.00       572.00                  484.75
+  15)    BAMBI 008     ZLATNI PEK RF 4.2kg BAMBI                KG          1.28       140.00       179.76                  152.34
+  16)    BAMBI 018     BAMBI MIX 400gr x 10-BAMBI               KOM         3.00        93.00       279.00                  236.44
+  17)    BAMBI 019     BAMBIJEVE RIBICE 90gr x 32-BAMBI         KOM         2.00        21.00        42.00                   35.59
+  18)    BAMBI 021     PERECE 90grx 28-BAMBI                    KOM         2.00        22.00        44.00                   37.29
+  19)    BAMBI 038     MLECNI KEKS 4.5 KG RF                    KG          4.20       170.00       714.00                  605.08
+  20)    BAMBI 041     INT.KEKS LESNIK 210gr 16/1# WELLNES      KOMAD       2.00        75.00       150.00                  127.12
+  21)    BAMBI 042     INT.KEKS S.GROZDJE 210gr 16/1# WELLNES   KOMAD       1.00        65.00        65.00                   55.08
+  22)  * BAMBI 053     YO DORO NAPOLI.COKOLADA 200g 20/1#       KOMAD       0.00        60.00                                 0.00
+  23)  * BAMBI 054     YO DORO NAPO.MLEKO-LES 200gr  20/1#      KOMAD       0.00        60.00                                 0.00
+  24)    BAMBI 068     COKO PLAZMA 60g  24/1#                   KOMAD       2.00        37.50        75.00                   63.56
+  25)    BAMBI 069     INT.KEKS NARAN.COKOLADA 205gr 18/1# WELL KOMAD       2.00        87.00       174.00                  147.46
+  26)  * BAMBI 074     YO DORO BALANS KAKAO 100g 32/1#          KOMAD       0.00        58.00                                 0.00
+  27)    BAMBI 083     ZLATNI PEK COKOLADA  180gr 14/1#         KOMAD       1.00        45.00        45.00                   38.14
+  28)    BAMBI 086     ZLATNI PEK MED 180gr 14/1#               KOMAD       3.00        47.00       141.00                  119.49
+  29)    BAMBI 094     NOTTE LESNIK 30g 20/1# BAMBI             KOMAD      16.00        26.00       416.00                  352.54
+  30)  * BAMBI 103     COK.NARANDZA CRNA 90g 23/1#              KOMAD       0.00        76.00                                 0.00
+  31)    BAMBI 107     COK.MALINA CRNA 90g 21/1#                KOMAD       1.00        75.00        75.00                   63.56
+  32)    BAMBI 114     COK.VISNJA CRNA 90g 21/1#                KOMAD       2.00        75.00       150.00                  127.12
+  33)    BAMBI 115     COKOLADA70% KAKAO 90g 23/1#              KOMAD       3.00        73.00       219.00                  185.59
+  34)    BAMBI 124     PLAZMA DOBAR START 450g 6/1# BAMBI       KOMAD       1.00       226.00       226.00                  191.53
+  35)    BAMBI 135     INT.KEKS BRUSNICA JOG.205g WELLNES 18/1# KOM         2.00       100.00       200.00                  169.49
+  36)    BAMBI 139     JUHU PUCKETAVA ML.COKO.30g 36/1#         KOM        10.00        22.00       220.00                  186.44
+  37)    BANAT 18      YO-YO 30g x20kom 12 TK - BANAT           kom        20.00        15.00       300.00                  254.24
+  38)    BANAT 28      JUHU-PLAZMA 27grx36kom 12/1# - BANAT     kom        34.00        21.00       714.00                  605.08
+  39)    BANINI 01     NOBLICE 5kg-BANINI                       kg          3.11       235.00       730.38                  618.97
+  40)    BANINI 06     NOBLICE 125g 30kom 3.75kg-BANINI         kom         2.00        49.00        98.00                   83.05
+  41)    BANINI 07     NOBLICE 250g 15kom 3.75kg-BANINI         kom         3.00        90.00       270.00                  228.81
+  42)    BANINI 08     TOTO 137.5g 30/1 4.125kg-BANINI          kom         3.00        46.00       138.00                  116.95
+  43)    BANINI 14     DOMACICA 275g 15kom 4.125kg-BANINI       kom         3.00        88.00       264.00                  223.73
+  44)    BANINI 16     RUM KASATO 120G 40kom-BANINI             kom         3.00        35.00       105.00                   88.98
+  45)    BANINI 28     DOMACICA 4.125 kg                        KG          1.27       220.00       279.62                  236.97
+
+     Strana 2
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+  46)    BART 009      SLANI STAPICI SUSAM -POSNI 3kg           KG          2.17       330.00       717.42                  607.98
+  47)    BART 010      SLANI STAPICI INTEGRALNI -POSNI 3kg      KG          2.79       330.00       920.70                  780.25
+  48)    BARVALO 001   FIGURINE 9/1                             KOM        29.00        18.00       522.00                  442.37
+  49)    BARVALO 002   V.FIGURE 1/1                             komad       3.00       282.00       846.00                  716.95
+  50)    BARVALO 009   MALE KOPACKE 2/1                         kutij       2.00       288.00       576.00                  488.14
+  51)    BARVALO 011   PERLE 24/1                               komad       8.00        63.00       504.00                  427.12
+  52)    BARVALO 015   POLJSKO CVECE 1/1                        komad       3.00        65.00       195.00                  165.25
+  53)    BARVALO 025   KOKOS U BOJI 12/1                        komad       2.00        58.00       116.00                   98.31
+  54)    BELA 001      BIOBELLA-KOKOS RF  1/1                   KG          0.69       460.00       317.40                  268.98
+  55)    BELA 002      BIOBELLA-CIMET RF  1/1                   KG          0.18       460.00        83.72                   70.95
+  56)    BELA 003      BIOBELLA-ROGAC RF  1/1                   KG          0.88       460.00       405.72                  343.83
+  57)    BELA 004      BIOBELLA-LIMUN RF  1/1                   KG          0.34       460.00       155.48                  131.76
+  58)    BELA 005      BIOGRIC-SUSAM RF  1/1                    KG          0.44       205.00        90.61                   76.79
+  59)  * BELA 006      BIOGRIC-KIKIRIKI  1/1                    KG         -0.02       205.00                     -3.69      -3.13
+  60)    BELINA 20     PETIT 1/1  6kg -BELINA                   KG          2.40       130.00       312.00                  264.41
+  61)    BELINA 27     ESPRESO KEKS 5/1   BELINA                KG          5.00       210.00      1050.00                  889.83
+  62)  * BH 002        CHOCO LAX 25/1                           komad       0.00        50.00                                 0.00
+  63)    BIN 002       BOZA   1 L   1X9kom                      komad       3.00        82.00       246.00                  208.47
+  64)    BIN 003       BOZA 0.5 L   1X12kom                     komad       3.00        45.00       135.00                  114.41
+  65)    BIOLAND 001   TAHINI  6kom/1# 360g                     komad       2.00       220.00       440.00                  372.88
+  66)    BIP 001       SUVI PIVSKI KVASAC 200gr                 komad       2.00       195.00       390.00                  330.51
+  67)    BIP 002       SUVI PIVSKI KVASAC 400gr                 komad       2.00       325.00       650.00                  550.85
+  68)    BISER 001     HLADNO CEDJENO SUNCOK. ULJE 1L 12/1#     LITAR       2.00       115.00       230.00                  212.96
+  69)    BONITO 01     BONITO KAFA 100G  60/1#                  komad      55.00        61.00      3355.00                 2843.22
+  70)    BONITO 02     BONITO KAFA 200G  30/1#                  komad      26.00       122.00      3172.00                 2688.14
+  71)    C-PRO 006     PRASAK ZA PECIVO "C 12g x100kom          komad      89.00         5.00       445.00                  377.12
+  72)    C-PRO 007     VANILIN SECER "C" 10g X150kom            komad     129.00         5.00       645.00                  546.61
+  73)    C-PRO 008     SUPA KOKOSIJA "C" 20/1# 65g              komad      20.00        40.00       800.00                  677.97
+  74)    C-PRO 009     SUPA GOVEDJA "C" 20/1# 65g               komad      20.00        45.00       900.00                  762.71
+  75)    C-PRO 015     ZACIN "C" 250g x30kom                    komad       2.00        63.00       126.00                  106.78
+  76)    C-PRO 016     ZACIN "C" 500g x18kom                    komad       2.00       120.00       240.00                  203.39
+  77)    C-PRO 034     SUPA NJUPA KOK."C" 60gx20                komad      20.00        40.00       800.00                  677.97
+  78)    C-PRO 050     SLAG POSNI"C" 40gr 35/1                  komad      35.00        39.00      1365.00                 1156.78
+  79)    CA 001        KANTARION (hiypericum perforatum)  1kg   KG          1.00       380.00       380.00                  322.03
+  80)    CA 002        RUZMARIN (rosmarinus officinalis)  1kg   KG          1.00       520.00       520.00                  440.68
+  81)    CA 004        MAJCINA DUSICA (thymus serpyllum)  1kg   KG          1.00       410.00       410.00                  347.46
+  82)    CA 005        MATICNJAK (melissa officinalis)  1kg     KG          2.00       520.00      1040.00                  881.36
+  83)    CA 006        PERSUN (petroselini folium)  1kg         KG          0.80       430.00       344.00                  291.53
+  84)    CA 007        NANA (menthae piperitae folium) 1kg      KG          1.00       700.00       700.00                  593.22
+  85)    CA 009        RTANJSKI(saturejae herba)  1kg           KG          1.00       410.00       410.00                  347.46
+  86)    CA 011        SENA (sennae folium) 1kg                 KG          1.00       500.00       500.00                  423.73
+  87)    CA 012        SIPAK (cynosbati fructus) 1kg            KG          1.00       460.00       460.00                  389.83
+  88)    CA 013        UVA (uvae ursi folium) 1kg               KG          1.00       600.00       600.00                  508.47
+  89)    CA 014        ZELENI (theae folium) 1kg                KG          0.50       800.00       400.00                  338.98
+  90)    CA 015        RASTAVIC (equisetum arvense) 1kg         KG          1.00       380.00       380.00                  322.03
+  91)    CA 016        ZALFIJA (salvia officinalis)  1kg        KG          1.00       520.00       520.00                  440.68
+  92)    CA 019        KOPRIVA (urticae folium)   1 KG          KG          1.00       360.00       360.00                  305.08
+  93)    CA 028        CRNI(theae folium) 1kg                   KG          1.00       930.00       930.00                  788.14
+  94)    CA 030        HAJDUCKA TRAVA (millefoli flos) 1kg      KG          1.00       400.00       400.00                  338.98
+  95)    CA 031        HIBISKUS (hibisci flos) 1kg              KG          1.00       970.00       970.00                  822.03
+  96)    CA 034        ORIGANO (origani heracleotici herba) 1kg KG          0.95       830.00       788.50                  668.22
+  97)    CA 037        CELER (apium graveolens) 1kg             KG          0.95       680.00       646.00                  547.46
+  98)    CA 041        KAMILICA (chamomillae flos) 1kg          KG          2.00       870.00      1740.00                 1474.58
+  99)    CA 046        KRUSINA (rhamnus frangula) 1kg           KG          1.00       560.00       560.00                  474.58
+
+     Strana 3
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+ 100)    CASSATO 001   PISKOTE CASSATO FOOD 4/1                 KG          2.19       390.00       855.66                  725.14
+ 101)    COKOLINE 05   COKOLINE MLJAC MLJAC 3.5/1               KG          3.04       310.00       942.40                  798.64
+ 102)    COKOLINE 08   COKOLINE PRALINE  2/1                    KG          1.55       350.00       543.90                  460.93
+ 103)    COKOLINE 13   MLJAC COKO NARANDZA 3/1                  KG          2.30       330.00       760.32                  644.34
+ 104)    COLA 15       COCA-COLA 2L 8/1                     134 KOM         5.00        97.00       485.00                  411.02
+ 105)    COLA 23       COCA-COLA 1L 12/1                    069 KOM         6.00        67.00       402.00                  340.68
+ 106)    COLA 27       TONIC 1.5L 8/1                       064 KOM         6.00        92.00       552.00                  467.80
+ 107)    COLA 35       FANTA ORANGE 2L 8/1- PROMOTIVNA          KOM         7.00        92.00       644.00                  545.76
+ 108)    COLA 55       COCA-COLA 0.5L 24/1 SUMMER               KOM        19.00        49.50       940.50                  797.03
+ 109)    COLA 81       ULTRA ENERGY 0,25 24/1#                  KOM        18.00        45.00       810.00                  686.44
+ 110)  * CORNAS 001    EL FAMOSO NATU. 500gr 10/1               komad       0.00       182.00                                 0.00
+ 111)    CRVENKA 01    JAFA 150g 24kom 3.6kg-CRVENKA            komad       7.00        74.00       518.00                  438.98
+ 112)    CRVENKA 02    JAFA 300g 12kom 3.6kg-CRVENKA            komad       3.00       133.00       399.00                  338.14
+ 113)    CRVENKA 03    MANCMELOU 105g 24kom 2.52kg-CRVENKA      KOMAD       2.00        50.00       100.00                   84.75
+ 114)    CRVENKA 13    KREKER TAK 200g 12/1 -CRVENKA            KOM         3.00        45.00       135.00                  114.41
+ 115)    CRVENKA 63    JAFA 150g VISNJA 24/1#                   KOM         2.00        74.00       148.00                  125.42
+ 116)    CUKOV01       RATLUK RUZA 3/1-CUKOVIC                  KG          0.54       180.00        97.92                   82.98
+ 117)    CUKOV02       RATLUK ORAH 3/1-CUKOVIC                  KG          1.55       140.00       216.44                  183.42
+ 118)    CUKOV03       RATLUK VANILA 3/1-CUKOVIC                KG          1.36       130.00       176.28                  149.39
+ 119)    CUKOV04       RATLUK JAGODA 3/1-CUKOVIC                KG          3.00       130.00       390.00                  330.51
+ 120)    CUKOV05       ZELE BOMBONE 3/1                         KG          2.24       165.00       369.60                  313.22
+ 121)    DANDDY 001    MLEVENI MAK 200GR 20/1                   komad       2.00       107.00       214.00                  181.36
+ 122)    DECOR 01      RUZICE VECE 10/1-DECOR                   KOM        19.00        20.00       380.00                  322.03
+ 123)    DECOR 02      RUZICE MANJE 20/1-DECOR                  KOM        20.00        15.00       300.00                  254.24
+ 124)    DECOR 08      RUZICE VECE 3/1-DECOR                    KOM         6.00        40.00       240.00                  203.39
+ 125)    DIJAM 01      DIJAMANT MARGARIN 5/1                    KOM        10.00        36.00       360.00                  305.08
+ 126)    DIJAMANT 01   ULJE DIJAMANT 15/1                       litar      10.00        81.00       810.00                  750.00
+ 127)    DIVELLA 001   MASLINOVO ULJE 1L EXTRA VIRGIN 12/1#     komad       2.00       670.00      1340.00                 1240.74
+ 128)    DIVELLA 002   MASLINOVO ULJE 0.5l EXTRA VIRGIN 12/1#   komad       2.00       440.00       880.00                  814.81
+ 129)    DIVIZMA 002   PROPOLIS ZA ODRASLE                      komad       3.00       130.00       390.00                  330.51
+ 130)    DIVIZMA 004   PROPOLIS ZA MRSAVLJENJE                  komad       3.00       130.00       390.00                  330.51
+ 131)    DIVIZMA 006   PROPOLIS ZA CIRKULACIJU                  komad       3.00       130.00       390.00                  330.51
+ 132)    DIVIZMA 008   KAPI OD GLOGA                            komad       3.00       115.00       345.00                  292.37
+ 133)    DIVIZMA 010   KAPI OD KOPRIVE                          komad       3.00       115.00       345.00                  292.37
+ 134)    DIVIZMA 011   KAPI OD VALERIJANE                       komad       3.00       115.00       345.00                  292.37
+ 135)    DIVIZMA 012   KAPI KANTARIONA SPOLJNA UPOTREBA         komad       3.00       115.00       345.00                  292.37
+ 136)    DIVIZMA 015   KAPI OD ARTICOKE                         komad       3.00       115.00       345.00                  292.37
+ 137)    DIVIZMA 016   SIRUP OD BELOG SLEZA                     komad       2.00       115.00       230.00                  194.92
+ 138)    DIVIZMA 017   SIRUP OD BOKVICE                         komad       3.00       130.00       390.00                  330.51
+ 139)    DIVIZMA 019   SIRUP OD JAGORCEVINE                     komad       3.00       115.00       345.00                  292.37
+ 140)    DIVIZMA 020   KAPI KANTARIONA UNUTRASNJA UPOTREBA      komad       3.00       115.00       345.00                  319.44
+ 141)  * DOMATTI 005   AJVAR BLAGI 680g 12/1 -DOMATTI           komad       0.00       170.00                                 0.00
+ 142)    DUCLA 06      ANANAS KOLUTOVI 850ml  12/1              komad       2.00       230.00       460.00                  389.83
+ 143)    DUCLA 07      ANANAS KOMADI   850ml  12/1              komad       2.00       195.00       390.00                  330.51
+ 144)    DUCLA 08      ANANAS KOLUTOVI 580ml  12/1              komad       1.00       160.00       160.00                  135.59
+ 145)    DUCLA 09      ANANAS KOMADI   580ml   12/1             komad       2.00       125.00       250.00                  211.86
+ 146)    E-PAN 001     CIKORIJA                                 komad       2.00        78.00       156.00                  132.20
+ 147)    E-PAN 002     BIOKAFA                                  komad       2.00        52.00       104.00                   88.14
+ 148)    EKOFARM 01    SIRCE D.JABUKE STAND.0.5 X 20-EKOFARM    komad       2.00        64.00       128.00                  108.47
+ 149)    EKOFARM 02    SIRCE D.JABUKE MRSAV.0.5 X 20-EKOFARM    komad       4.00        66.00       264.00                  223.73
+ 150)    EKOFARM 03    SIRCE D.JABUKE CIRKU.0.5 X 20-EKOFARM    komad       2.00        66.00       132.00                  111.86
+ 151)    EKOFARM 05    JABUKOVO SIRCE 1 X 12-EKOFARM            komad       3.00        70.00       210.00                  177.97
+ 152)    EKOFARM 06    KUPINOVO VINO 0.75 X 6-EKOFARM           komad       1.00       285.00       285.00                  241.53
+ 153)    EKOFARM 09    ODMENJSKA VODA  5/1 - EKOFARM            PAK         4.00        75.00       300.00                  254.24
+
+     Strana 4
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+ 154)    EKOFARM 15    SIRUP CVETA ZOVE 0.7 X 12 -EKOFARM       KOM         1.00       180.00       180.00                  152.54
+ 155)    EKOFARM 16    SIRUP PLODA ZOVE 0.7 X 12 -EKOFARM       KOM         2.00       180.00       360.00                  305.08
+ 156)    EKOFARM 17    SIRUP KOPRIVE 0.7 X 12 -EKOFARM          KOM         1.00       180.00       180.00                  152.54
+ 157)    EKOFARM 18    SIRUP OD DRENJINE 0.7 X 12 -EKOFARM      KOM         2.00       180.00       360.00                  305.08
+ 158)    EKOFARM 19    SIRUP MENTE-NANA 0.7 x 12 -EKOFARM       KOM         2.00       180.00       360.00                  305.08
+ 159)    EKOFARM 20    SIRUP HIBISKUS 0.7 x 12 - EKOFARM        KOM         2.00       180.00       360.00                  305.08
+ 160)    EKOFARM 24    SIRUP OD KUPINE 0.7l 12/1#EKOFARM        KOM         2.00       180.00       360.00                  305.08
+ 161)    ERIKSON 003   COKOLADA U PRAHU ER 1/1                  KG          2.00       270.00       540.00                  457.63
+ 162)    EUR-SW 006    CHERRY DESERT        2 KG                KG          1.25       640.00       802.56                  680.14
+ 163)    EUR-SW 050    DEDA MRAZ 20g 25/1                       KOMAD      17.00        38.00       646.00                  547.46
+ 164)    EUR-SW 058    BOMBONE GUMENE MENTOL 2KG                KG          1.00       490.00       489.02                  414.42
+ 165)    EVROPA 02     EVRO MINI BANANA 3.5/1                   KG          3.17       500.00      1587.00                 1344.92
+ 166)    EVROPA 07     BOMBONJERA BUKET 200GR                   KOM         1.00       270.00       270.00                  228.81
+ 167)    EVROPA 15     MIKS BOMBONA EVROPA 3/1                  KG          2.14       340.00       726.92                  616.03
+ 168)    EVROPA 18     BELA MENTA RF 3/1 EVROPA                 KG          2.20       310.00       680.76                  576.92
+ 169)    EVROPA 24     RUM PLOCICA RF 3.5                       KG          3.18       500.00      1590.00                 1347.46
+ 170)    EVROPA 28     KREM BANANA RF 3.5kg                     KG          1.24       470.00       582.80                  493.90
+ 171)    EXOTICA 074   SMOKVA SUVA 2kg                          KG          2.26       380.00       859.56                  728.44
+ 172)  * EXOTICA 080   KAJSIJA SUVA 200g 50/1#                  KOM         0.00        75.00                                 0.00
+ 173)    FEDELA 001    SECER 1/1 KRISTAL 10/1#                  KG          2.00        61.00       122.00                  112.96
+ 174)    FIDELINKA 004 BRASNO T-400 MEKO 1/1 10/# FIDELINKA     KG          5.00        45.00       225.00                  208.33
+ 175)    FIDELINKA 005 BRASNO T-500 1/1 10/#                    KG          7.00        42.00       294.00                  272.22
+ 176)    FILIP 001     CUCLA LIZALICA    100kom/1#   FILIPOVIC  komad     100.00         8.00       800.00                  677.97
+ 177)    FILIP 002     KISOBRANCIC LIZA. 100kom/1#   FILIPOVIC  komad      90.00         8.00       720.00                  610.17
+ 178)    FLORIDA 001   ANANAS U KOCKI 1/1                       KG          1.34       370.00       495.80                  420.17
+ 179)    FLORIDA 003   PAPAJA U KOCKI 1/1                       KG          0.80       420.00       334.32                  283.32
+ 180)    FLORIDA 004   BANANA CIPS  1.5 KG                      KG          0.80       300.00       238.80                  202.37
+ 181)    FOODLAND 007  SIRUP OD IZDANKA BORA 410GR  1#/12 kom   komad       2.00       205.00       410.00                  347.46
+ 182)    FOODLAND 008  BALSAMICO SIRCE 250ml 12/1#              komad       1.00       195.00       195.00                  165.25
+ 183)    FORTIN 001    OVSENE MEKINJE 0.500g 24/1#              komad       3.00       235.00       705.00                  597.46
+ 184)    FRUCTAL 01    SOK MRKVA 0.7L 100% -FRUCTAL  12KOM      komad       3.00       178.00       534.00                  452.54
+ 185)    FRUCTAL 02    SOK CVEKLA 0.7L 100% -FRUCTAL  12KOM     komad       2.00       198.00       396.00                  335.59
+ 186)    FRUCTUS 001   NANA               F                     komad       3.00        38.00       114.00                   96.61
+ 187)    FRUCTUS 002   SIPAK              F                     komad       3.00        49.00       147.00                  124.58
+ 188)    FRUCTUS 003   HIBISKUS           F                     komad       3.00        49.00       147.00                  124.58
+ 189)    FRUCTUS 006   ZELENI             F                     komad       3.00        48.00       144.00                  122.03
+ 190)    FRUCTUS 007   LIPA               F                     komad       2.00        46.00        92.00                   77.97
+ 191)    FRUCTUS 008   KANTARION          F                     komad       2.00        40.00        80.00                   67.80
+ 192)    FRUCTUS 009   UVA                F                     komad       2.00        46.00        92.00                   77.97
+ 193)    FRUCTUS 010   KOPRIVA            F                     komad       2.00        40.00        80.00                   67.80
+ 194)    FRUCTUS 011   DIVLJA TRESNJA     F                     komad       2.00        72.00       144.00                  122.03
+ 195)    FRUCTUS 012   JAGODA             F                     komad       3.00        70.00       210.00                  177.97
+ 196)    FRUCTUS 018   MAJCINA DUSICA     F                     komad       3.00        40.00       120.00                  101.69
+ 197)    FRUCTUS 021   ZALFIJA            F                     komad       2.00        50.00       100.00                   84.75
+ 198)    FRUCTUS 022   ZELENI SA LIMUNOM  F                     komad       2.00        61.00       122.00                  103.39
+ 199)    FRUCTUS 024   MALINA             F                     komad       2.00        70.00       140.00                  118.64
+ 200)    FRUCTUS 027   FITNES             F                     komad       2.00       100.00       200.00                  169.49
+ 201)    FRUCTUS 028   KAMILICA           F                     komad       2.00        36.00        72.00                   61.02
+ 202)    FRUCTUS 030   ZELENI SA NARANDZOM    F                 komad       3.00        58.00       174.00                  147.46
+ 203)    FRUCTUS 035   BRUSNICA           F                     komad       3.00        92.00       276.00                  233.90
+ 204)    FRUCTUS 037   SUMSKO VOCE      F                       komad       3.00        92.00       276.00                  233.90
+ 205)    GB 001        LANENE PLOCICE    5/1   BASKET           KG          2.23       390.00       870.09                  737.36
+ 206)    GB 002        OVSENE PLOCICE    5/1   BASKET           KG          4.90       390.00      1911.00                 1619.49
+ 207)    GB 004        INT. STAPICI MAK  5/1   BASKET           KG          4.64       380.00      1763.20                 1494.24
+
+     Strana 5
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+ 208)    GB 007        HELJDINE PLOCICE 5/1    BASKET           KG          4.64       390.00      1809.60                 1533.56
+ 209)  * GIBA01        ROZEN KORA    20/#                       KOMAD       0.00       177.00                                 0.00
+ 210)    GIBA03        PUSLICE 100g   40KOM/#                   KOMAD       3.00        55.00       165.00                  139.83
+ 211)    GOOD 002      SUSENI MANGO                             KG          0.80       650.00       518.70                  439.58
+ 212)    GOOD 011      KARAMELA KAKAO-1kg/4#-VURAL              KG          1.46       420.00       612.36                  518.95
+ 213)    GOOD 012      KARAMELA MLECNA-1kg/4#-VURAL             KG          1.71       420.00       718.20                  608.64
+ 214)    GOOD 013      TVRDA MLECNA BOMBONA-1kg/4#-VURAL        KG          0.95       360.00       341.28                  289.22
+ 215)    GOOD 014      VURAL KARAMELA FRUTI-1kg/4#-VURAL        KG          0.69       420.00       288.12                  244.17
+ 216)    GOOD 015      PEACH RINGS GUMENE BOM-1kg/12#-VURAL     KG          1.17       540.00       631.26                  534.97
+ 217)    GOOD 017      BEBETO MIX GUMENE BOM-1kg/12#-VURAL      KG          0.78       540.00       423.90                  359.24
+ 218)    GOOD 020      TEETHOS GUMENE BOMBONE-1kg/12#-VURAL     KG          0.79       540.00       428.76                  363.36
+ 219)    GRAND 02      GRAND KAFA 100G 60/1#                    komad      49.00        73.00      3577.00                 3031.36
+ 220)    GRAND 03      GRAND KAFA 200G 30/1#                    komad      19.00       140.00      2660.00                 2254.24
+ 221)    ILVA 002      VANILICE POSNE 3/1-ILVA                  KG          3.21       280.00       898.24                  761.22
+ 222)    INKA 005      SHOYU SOS         200ml.                 KOMAD       1.00       340.00       340.00                  288.14
+ 223)    INKA 007      ALGE WAKAME        25gr.                 KOMAD       1.00       330.00       330.00                  279.66
+ 224)    INKA 009      MISO ONOZAKI      200gr.                 KOMAD       1.00       750.00       750.00                  635.59
+ 225)  * INKA 014      TAMARI SOS        200ml.                 KOMAD       0.00       440.00                                 0.00
+ 226)    INKA 017      INKA - FOLIJA     180gr.                 KOMAD       3.00       205.00       615.00                  521.19
+ 227)    INKA 019      UMEBOSI SIRCE 200 ml.                    KOMAD       1.00       185.00       185.00                  156.78
+ 228)    INKA 021      ALGE ARAME 25gr.                         KOMAD       1.00       330.00       330.00                  279.66
+ 229)    IRIKOM 001    FEFERONI 220g 24/1# IRIKOM               komad       2.00        80.00       160.00                  135.59
+ 230)    ISHRANA 02    VALF 3kg                                 KG          2.38       350.00       833.70                  706.53
+ 231)    ISHRANA 07    GURABIJA SECER 3kg                       KG          2.27       310.00       703.70                  596.36
+ 232)    JEZ 001       MUSLI TROPIK 3/1 - JEZ                   KG          2.23       260.00       580.32                  491.80
+ 233)    JEZ 002       MUSLI SPORT 3/1 - JEZ                    KG          0.32       170.00        54.40                   46.10
+ 234)    JEZ 003       MUSLI CLASIC 3/1-JEZ                     KG          3.00       150.00       450.00                  381.36
+ 235)    JEZ 010       PREZLA 200gr 30/1#  JEZ                  KOM         4.00        20.00        80.00                   67.80
+ 236)    JEZ 020       MUSLI CLASIC 250G 10/1#    - JEZ         KOM         1.00        75.00        75.00                   63.56
+ 237)    JEZ 021       MUSLI SPORT  250G 10/1#    - JEZ         KOM         2.00        85.00       170.00                  144.07
+ 238)    JEZ 023       MUSLI TROPIK 250G 10/1#    - JEZ         KOM         2.00        90.00       180.00                  152.54
+ 239)    JOKER12       SLAG PENA 100gr 20/1# x 6                KOM        20.00        30.00       600.00                  508.47
+ 240)    JOKER13       SLAG KREM BELI 100g 20/1# X 4            KOM        19.00        38.00       722.00                  611.86
+ 241)    JOKER14       SLAG KREM VANILA 100g 20/1# x 4          KOM        15.00        38.00       570.00                  483.05
+ 242)    JOKER26       SLAG PENA 500gr 40/1      JOKER          KOM         3.00       150.00       450.00                  381.36
+ 243)    JUGOMIS 01    SIRCE ALKOHOLNO 1/1 15-JUGOMIS           komad       3.00        49.00       147.00                  124.58
+ 244)    JUGOMIS 08    SIRCE VINSKO 1/1  15-JUGOMIS             komad       1.00        59.00        59.00                   50.00
+ 245)    KINA 001      KIKIRIKI SIROVI 25/1                     KG          3.16       170.00       537.20                  455.25
+ 246)    KIRKA 001     KIRKOLINA FILTER CAJ ZA MRSAVLJENJE 20/# komad       2.00       115.00       230.00                  194.92
+ 247)    KIRKA 004     KIRKOLINA FILTER CAJ PROT. CELULITA 20/# komad       3.00       115.00       345.00                  292.37
+ 248)    KNJAZ 01      KNJAZ MILOS 1.5L 6/1                     KOM         7.00        40.00       280.00                  237.29
+ 249)    KNJAZ 02      AQVA VIVA 1.5L 6/1                       KOM         4.00        42.00       168.00                  142.37
+ 250)    KNJAZ 06      KNJAZ MILOS 0.5L 12/1                    KOM        11.00        29.00       319.00                  270.34
+ 251)    KNJAZ 14      JUICE UP JABUKA 0.5L 12/1#               KOM         6.00        38.00       228.00                  193.22
+ 252)    KNJAZ 18      AQVA VIVA 0.75  12/1 BRESKVA             KOM         8.00        49.00       392.00                  332.20
+ 253)    KNJAZ 38      GUARANA 0.25L 4/1# NOVA CETVORKA         KOM        11.00        54.00       594.00                  503.39
+ 254)    KODIAK 001    BRUSNICA CAJ LIMENKA 120g  3/1#          komad       1.00       315.00       315.00                  266.95
+ 255)    KONDI  08     KOKOS DESERT 3/1                         KG          2.36       380.00       896.80                  760.00
+ 256)    KONDI 06      BELA KREM BANANA 2/1                     KG          1.89       380.00       717.44                  608.00
+ 257)    KONDIVA 03    SMAJLI LESNIK 140g x 15                  KOMAD       2.00       140.00       280.00                  237.29
+ 258)    KONDIVA 04    SMAJLI MLEKO 140g x 15                   KOMAD       2.00       140.00       280.00                  237.29
+ 259)    KONDIVA 05    SMAJLI MIKS 1kg x 5                      KG          0.52       920.00       476.56                  403.86
+ 260)    KONDIVA 11    LESNIK NAPOLITANKA 4.2kg/1# 350gr        KG          4.20       270.00      1134.00                  961.02
+ 261)    KONDIVA 13    LIMUN NAPOLITANKA 4.2kg/1#  350g         KG          3.84       270.00      1037.88                  879.56
+
+     Strana 6
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+ 262)    KONDIVA 19    VAFL KOCKA SA KAKAO FIL.I KAKAO PR.3kg   KG          3.00       310.00       930.00                  788.14
+ 263)    KONDIVA 20    STANGLA SA LES.FIL I KAKAO PR.5kg        KG          3.87       310.00      1198.46                 1015.64
+ 264)  * KRISTAL 002   MORSKA SO 5kg KRUPNA                     KG          0.00        27.00                                 0.00
+ 265)    LEROS 001     PAPIRNE KORPICE br1  140kom              KOM       135.00        13.00      1755.00                 1487.29
+ 266)    LEROS 004     JESTIVE KORPICE MIX  120kom              KOM       110.00         4.50       495.00                  419.49
+ 267)    LIBERO 001    MINI SNACK-PIZZA narandzasta             KG          0.97       260.00       252.20                  213.73
+ 268)    LIBERO 002    MINI SNACK-SLANINA zuta                  KG          0.76       260.00       198.64                  168.34
+ 269)    LIBERO 003    MINI SNACK-MIX                           KG          0.78       390.00       305.76                  259.12
+ 270)    LUTKA 03      SECER KOCKA 500g x 18                    KOMAD      17.00        53.00       901.00                  834.26
+ 271)    M&M  002      FRUTKO BOMBONE 20 gr  x 16 kom           komad      10.00        40.00       400.00                  338.98
+ 272)    MACROB 001    KOMBUHA   1 L       1#/12kom             komad       3.00       165.00       495.00                  419.49
+ 273)    MACROB 002    KOMBUHA   0.5 L     1#/12kom             komad       3.00        99.00       297.00                  251.69
+ 274)    MADICO 002    BILJNI ZELATIN 10g 10/1#                 KOM         9.00        34.00       306.00                  259.32
+ 275)    MALA 001      KVAS 0.33L 12/1# MALA KOMPANIJA          komad       4.00        35.00       140.00                  118.64
+ 276)    MALINA 002    KARANFILIC    10 gr - cvet               KOM        10.00        25.00       250.00                  211.86
+ 277)    MALINA 003    MAJORAN       10 gr 1#/10kom             KOM        10.00        15.00       150.00                  127.12
+ 278)    MALINA 007    KORIJANDER    10 gr 1#/10kom - mleveni   KOM        10.00        15.00       150.00                  127.12
+ 279)    MALINA 011    TIMIJAN       10 gr 1#/10kom             KOM        10.00        17.00       170.00                  144.07
+ 280)    MALINA 015    BOSILJAK           10 gr                 KOM        10.00        19.00       190.00                  161.02
+ 281)    MALINA 016    RUZMARIN           10 gr                 KOM         8.00        19.00       152.00                  128.81
+ 282)    MALINA 017    ROGAC         200 gr     1#/20kom        KOM         2.00        85.00       170.00                  144.07
+ 283)    MALINA 018    LOVOR LIST     10 gr    1#/50kom         KOM         7.00        21.00       147.00                  124.58
+ 284)    MARBO 013     CIPS XL 100gr x 12 kom                   kom        10.00        55.00       550.00                  466.10
+ 285)    MARBO 031     MINUT PIRE 120 gr x 10 kom               KOM         9.00        43.00       387.00                  327.97
+ 286)    MARINOVIC 001 CVETOVI VECI 1/1                         KUT         3.00        67.00       201.00                  170.34
+ 287)    MARTONOS 004  PAPRIKA TUCANA  LJUTA 1KG-MARTONOS       KG          0.90       640.00       574.72                  487.05
+ 288)    MARTONOS 005  PAPRIKA MLEVENA SLATKA 1KG               KG          1.25       640.00       800.00                  677.97
+ 289)    MBNV 01       OBLANDE "MB" 20/1                        komad      10.00        40.00       400.00                  338.98
+ 290)    MDV 001       SVEDSKA GORCICA 110gr.                   komad       1.00       430.00       430.00                  364.41
+ 291)    MDV 002       HERBA CAJ       100gr.                   komad       1.00       215.00       215.00                  182.20
+ 292)    MDV 003       SWEDISH BITTER  250ml.                   komad       1.00       520.00       520.00                  440.68
+ 293)    MED 01        LIVADSKI MED 0.96     1#/12kom           komad       2.00       390.00       780.00                  722.22
+ 294)    MED 02        BAGREMOV MED 0.96     1#/12kom           komad       2.00       410.00       820.00                  759.26
+ 295)    MED 03        SUMSKI MED 0.96       1#/12kom           komad       2.00       410.00       820.00                  759.26
+ 296)    MED 07        BAGREMOV MED 0.48     1#/24kom           komad       1.00       245.00       245.00                  226.85
+ 297)    MED 08        LIVADSKI MED 0.48     1#/24kom           komad       1.00       230.00       230.00                  212.96
+ 298)    MED 11        LIPOV MED 0.96        1#/12kom           komad       2.00       390.00       780.00                  722.22
+ 299)    MED 13        POLEN    100 gr                          komad       3.00       199.00       597.00                  505.93
+ 300)    MENTOLKO 001  MENTOL BOMBONE 5/1                       KG          2.58       200.00       516.00                  437.29
+ 301)    MENTOLKO 005  VOCNE BOMBONE MIKS TVRDE 5/1             KG          4.10       200.00       819.20                  694.24
+ 302)  * MGN 02        NATURAL BLOK LESNIK 30g 20kom x 8#       komad       0.00        25.00                                 0.00
+ 303)  * MGN 04        NATURAL BLOK VISNJA 31g 20kom x 8#       komad       0.00        25.00                                 0.00
+ 304)    MINA01        MINAKVA 2L X 6                           KOM         8.00        33.00       264.00                  223.73
+ 305)    MIRA 002      REZANAC DOMACI 150g 20/1#                komad       3.00        45.00       135.00                  114.41
+ 306)    MLKM 003      AROME TECNE VANILA         10 ml.        komad       2.00        30.00        60.00                   50.85
+ 307)    MLKM 004      AROME TECNE KIVI           10 ml.        komad       3.00        30.00        90.00                   76.27
+ 308)    MLKM 005      AROME TECNE JAGODA         10 ml.        komad       1.00        30.00        30.00                   25.42
+ 309)    MLKM 006      AROME TECNE MALINA         10 ml.        komad       3.00        30.00        90.00                   76.27
+ 310)    MLKM 007      AROME TECNE BRESKVA        10 ml.        komad       3.00        30.00        90.00                   76.27
+ 311)    MLKM 009      AROME TECNE KRUSKA         10 ml.        komad       2.00        30.00        60.00                   50.85
+ 312)    MLKM 011      AROME TECNE RUM            10 ml.        komad       2.00        30.00        60.00                   50.85
+ 313)    MLKM 014      AROME TECNE LESNIK         10 ml.        komad       3.00        30.00        90.00                   76.27
+ 314)    MLKM 018      AROME TECNE BANANA         10 ml.        komad       2.00        30.00        60.00                   50.85
+ 315)    MLKM 019      AROME TECNE ANANAS         10 ml.        komad       3.00        30.00        90.00                   76.27
+
+     Strana 7
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+ 316)    MLKM 021      BOJE TECNE ZELENA          10 ml.        komad       2.00        30.00        60.00                   50.85
+ 317)    MLKM 022      BOJE TECNE ZUTA            10 ml.        komad       3.00        30.00        90.00                   76.27
+ 318)    MLKM 023      BOJE TECNE NARANDZASTA     10 ml.        komad       3.00        30.00        90.00                   76.27
+ 319)    MLKM 024      BOJE TECNE PLAVA           10 ml.        komad       3.00        30.00        90.00                   76.27
+ 320)    MLKM 025      BOJE TECNE CRVENA          10 ml.        komad       2.00        30.00        60.00                   50.85
+ 321)    MLKM 026      BOJE TECNE LJUBICASTA      10 ml.        komad       3.00        30.00        90.00                   76.27
+ 322)    MRDR 001      BRUSNICA 1/1 (vaccinium macrocarpa)      KG          4.36       620.00      2700.72                 2288.75
+ 323)    NECTAR 011    VOCNE KAPI BRESKVA NECTAR 2l 6/1#        KOM         6.00        93.00       558.00                  472.88
+ 324)    NECTAR 013    VOCNE KAPI JABUKA 2L 50 % 6/1#           KOM         4.00        89.00       356.00                  301.69
+ 325)  * NECTAR 014    TOMATELLO 0.5L PARADAJZ PASIRANI 12/1#   KOM         0.00        60.00                                 0.00
+ 326)    NEGROPAK 002  KAKAO PRAH 100gr 40/# JEZ                komad       5.00        60.00       300.00                  254.24
+ 327)    NELLI 001     KREM BANANA 17g NELLY 40/1#              komad      41.00         6.00       246.00                  208.47
+ 328)    NELLI 003     ZELE ZEC SA COKO.PRELIVOM 25g 40/1# NELL komad      36.00        10.00       360.00                  305.08
+ 329)    NELLI 004     ZELE ZEC 22g 45/1# NELLY                 komad      40.00         8.00       320.00                  271.19
+ 330)    NERA 001      NERA TREE SIRUP 0.5 l 6/1#  BEYOND       komad       1.00      2100.00      2100.00                 1779.66
+ 331)    NERA 004      REISHI LISTICI 50gr                      komad       1.00       650.00       650.00                  550.85
+ 332)    NERA 005      SITAKE GLJIVE 50gr                       komad       1.00       350.00       350.00                  296.61
+ 333)    NEXT 018      NEXT JOY MULTIVITAMIN 0.5x12             KOM        11.00        49.00       539.00                  456.78
+ 334)    NEXT 032      NEXT CL.NARANDZA 1Lx12kom                KOM         9.00        88.00       792.00                  671.19
+ 335)    NEXT 036      NEXT CL.MULTIV. 1Lx12kom                 KOM         9.00        85.00       765.00                  648.31
+ 336)    OAZA 001      KLASIK CRVENA SVECICA 10kom/1#           komad      10.00        35.00       350.00                  296.61
+ 337)    OAZA 002      KLASIK PLAVA SVECICA 10kom/1#            komad      10.00        35.00       350.00                  296.61
+ 338)    OAZA 003      SPIRALA ZLATNA SVECICA 10KOM/1#          komad      10.00        68.00       680.00                  576.27
+ 339)    OAZA 004      SPIRALA SREBRNA SVECICA 10KOM/1#         komad      10.00        68.00       680.00                  576.27
+ 340)    OAZA 005      MALI BROJ SVEC.-ROZA 1/1                 komad       9.00        30.00       270.00                  228.81
+ 341)    OAZA 006      MALI BROJ SVEC.-PLAVA 1/1                komad       9.00        30.00       270.00                  228.81
+ 342)    OAZA 008      MAGICNI BROJ SVECICA 1/1                 komad      10.00        58.00       580.00                  491.53
+ 343)    OAZA 011      SPORT RODJ.SVECICA 1/1                   komad      10.00       105.00      1050.00                  889.83
+ 344)    OAZA 012      KOZMETIKA RODJ.SVECICA 1/1               komad      10.00       105.00      1050.00                  889.83
+ 345)    PANEFINO 004  INTEGRALNI DVOPEK    1#/36kom            komad       3.00        35.00       105.00                   97.22
+ 346)    PANEFINO 005  RAZANI DVOPEK        1#/36kom            komad       3.00        35.00       105.00                   97.22
+ 347)    PARACIN 01    SUPERTINO 3/1-PARACIN                    KG          1.83       380.00       696.92                  590.61
+ 348)    PARACIN 02    KARAMELA BRONHI 3kg-PARACIN              KG          2.90       500.00      1450.00                 1228.81
+ 349)    PARACIN 04    KARAMELA KROKI 3kg-PARACIM               KG          1.58       430.00       677.68                  574.31
+ 350)    PARACIN 05    CRNA COKOLADA 2.6KG-PARACIN              KG          2.30       370.00       851.00                  721.19
+ 351)    PARACIN 06    BELA COKOLADA 2.6KG-PARACIN              KG          1.80       370.00       664.52                  563.15
+ 352)    PARACIN 07    BELE PRALINE 1.8KG-PARACIN               KG          1.16       420.00       487.20                  412.88
+ 353)    PARACIN 08    CRNE PRALINE 1.8KG-PARACIN               KG          1.42       420.00       597.24                  506.14
+ 354)    PARACIN 114   BOMBONJERA GRAND LUX VI 240g 10/1#       komad       1.00       220.00       220.00                  186.44
+ 355)    PARACIN 19    BOMBONJERA DIPLOMAT 190GR 01 z 24kom/1#  KOM         1.00       153.00       153.00                  129.66
+ 356)    PARACIN 20    BOMBONJERA DIPLOMAT 190GR 03 c 24kom/1#  KOM         1.00       153.00       153.00                  129.66
+ 357)    PARACIN 37    BOMBONJERA GRAND LUX III 240G-PRACIN     KOMAD       1.00       220.00       220.00                  186.44
+ 358)    PARACIN 46    BOMBONJERA DIPLOMAT 380GR 06-PARACIN     KOM         1.00       270.00       270.00                  228.81
+ 359)    PARACIN 85    ZVAKA-BALONKA 4gx100kom                  komad      86.00         2.50       215.00                  182.20
+ 360)    PARACIN 86    ZVAKA-NINDZA 4gx100kom                   komad      85.00         2.50       212.50                  180.08
+ 361)    PATREKO 001   CILI SOS          250gr    1#/24kom      komad       1.00       120.00       120.00                  101.69
+ 362)    PATREKO 004   SOJA SOS PET 200gr         1#/30kom      komad       3.00        75.00       225.00                  190.68
+ 363)    PATREKO 005   SOJA SOS PET 500gr         1#/30kom      komad       1.00       130.00       130.00                  110.17
+ 364)    PATREKO 006   SOJA SOS PET 200gr - LJUTI 1#/30kom      komad       1.00       100.00       100.00                   84.75
+ 365)    PATREKO 007   SIPKA VANILE 2.5gr   20kom/kut.          KOM        20.00        72.00      1440.00                 1220.34
+ 366)    PATREKO 008   INST.SUPA racici 60gr.  30/#             komad       3.00        39.00       117.00                   99.15
+ 367)    PATREKO 010   INST.SUPA pecurke 60gr 30/#              komad       5.00        39.00       195.00                  165.25
+ 368)    PEPSI 73      PEPSI 2L 8/1#                            KOM         8.00        75.00       600.00                  508.47
+ 369)    PIONIR 01     LESNIK KARAMELA 1kg X 5-PIONIR           KG          1.65       580.00       959.32                  812.98
+
+     Strana 8
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+ 370)    PIONIR 02     NEGRO-1.0kg X 6-PIONIR                   KG          1.62       490.00       795.76                  674.37
+ 371)    PIONIR 04     BOMB.NARANDZA1kg X 6-PIONIR              KG          0.30       380.00       115.52                   97.90
+ 372)    PIONIR 05     BOMB.JAGODA 1kg X 6-PIONIR               KG          1.38       380.00       524.40                  444.41
+ 373)    PIONIR 09     KIDY MLECNI 30g 24kom X 9-PIONIR         KOMAD      13.00        23.00       299.00                  253.39
+ 374)  * PIONIR 118    OLALA CAKE+MILK 35grx18kom/6#            KOMAD       0.00        18.00                                 0.00
+ 375)  * PIONIR 119    OLALA COCOA CAKE 35grx18kom/6#           KOMAD       0.00        18.00                                 0.00
+ 376)    PIONIR 12     KIDY COKO+KARAMELA 30g 24kom X 6-PIONIRp KOMAD      24.00        23.00       552.00                  467.80
+ 377)  * PIONIR 120    OLALA ORANGE CAKE 35grx18kom/6#          KOMAD       0.00        18.00                                 0.00
+ 378)  * PIONIR 143    MARMELADA MESANA 700G 6/1# HISSAR        KOMAD       0.00       185.00                                 0.00
+ 379)    PIONIR 153    MARMELADA SIPURAK 700gr 6/1#             KOMAD       1.00       208.00       208.00                  176.27
+ 380)  * PIONIR 154    MARMELADA KAJSIJA 700gr 6/1#             KOMAD       0.00       208.00                                 0.00
+ 381)    PIONIR 17     MENTOL STRONG 1kg X10-PIONIR             KG          0.50       340.00       169.32                  143.49
+ 382)    PIONIR 172    COKO O KLOK 300g 8/1#                    KOMAD       2.00       160.00       320.00                  271.19
+ 383)    PIONIR 19     MEDENO SRCE 1kg X 6-PIONIR               KG          0.48       510.00       246.84                  209.19
+ 384)    PIONIR 24     KESTEN DEZERT 30gr X 24kom x 12 -PIONIR  komad      23.00        23.00       529.00                  448.31
+ 385)    PIRAMIDA 01   MUSLI KEKS 2kg-PIRAMIDA                  KG          1.49       460.00       685.40                  580.85
+ 386)    PIRAMIDA 02   TROPIK 2kg-PIRAMIDA                      KG          1.63       510.00       831.30                  704.49
+ 387)    PIRAMIDA 05   DIJABET 2kg-PIRAMIDA                     KG          1.73       550.00       951.50                  806.36
+ 388)    PIRAMIDA 06   POSNI MUSLI INTEGRAL 2kg-PIRAMIDA        KG          1.82       430.00       782.60                  663.22
+ 389)    PIRAMIDA 08   BETI BISKVIT 2kg-PIRAMIDA                KG          1.50       490.00       736.96                  624.54
+ 390)    PIRAMIDA 10   MUSLI BRUSNICA 1kg-PIRAMIDA              KG          1.35       830.00      1120.50                  949.58
+ 391)    PIRAMIDA 13   RAZ BISKVIT 2kg PIRAMIDA                 KG          1.37       460.00       631.12                  534.85
+ 392)    PLEMIC 02     SLJIVA BEZ KOSTICE 200g X 25kom-PLEMIC   komad       2.00        95.00       190.00                  161.02
+ 393)    PLEMIC 05     SUVA SLJIVA BEZ KOSTICE 5/1-PLEMIC       KG          4.45       330.00      1467.51                 1243.65
+ 394)    PRH 001       KRASTAVAC 0.720 12/1#      - PREHRANA    komad       4.00       110.00       440.00                  372.88
+ 395)    PRI01         PRINCEZA RF 1.5   - AMORETI              KG          1.21       340.00       410.72                  348.07
+ 396)    PRO001        PROLOM 6/1                               KOM         3.00        45.00       135.00                  114.41
+ 397)    RACIO 001     GALETE PIRINAC 12/1  Zelena              komad       2.00       105.00       210.00                  177.97
+ 398)    RACIO 003     GALETE SA KUKURUZOM 12/1 Zuta            komad       2.00       105.00       210.00                  177.97
+ 399)    RACIO 004     GALETE SA SOJOM 12/1 C                   komad       2.00       105.00       210.00                  177.97
+ 400)    RACIO 005     GALETE OD ZITARICA-MIX 12/1 LJ           komad       1.00       105.00       105.00                   88.98
+ 401)    RAVANICA 01   BONZITA MARELICA 25g 20kom-RAVANICA      komad      20.00        25.00       500.00                  423.73
+ 402)    RAVANICA 02   BONZITA S.GROZDJE 25g 20kom-RAVANICA     komad      18.00        25.00       450.00                  381.36
+ 403)    RAVANICA 06   BONZITA COKOLADNA 30gr 20kom-RAVANICA    komad      20.00        28.00       560.00                  474.58
+ 404)    RAVANICA 31   BONZITA BRUSNICOM 25g 20/1               komad      20.00        25.00       500.00                  423.73
+ 405)    RAZNO 02      SO KUHINSKA TUZLANSKA 1/1 16/1           KG         13.00        29.00       377.00                  319.49
+ 406)    RAZNO 14      MALTEX 920gr 12/#                        KOMAD       2.00       260.00       520.00                  440.68
+ 407)    RAZNO 15      MALTEX 460gr 20/#                        KOMAD       2.00       178.00       356.00                  301.69
+ 408)    RAZNO 50      ZACIN 250gr SUPER POSITIVE 12/1#         KOM         3.00        35.00       105.00                   88.98
+ 409)    RAZNO 53      SUSAMOV TAAN 500gr                       kom         1.00       445.00       445.00                  377.12
+ 410)    RAZNO 55      STONI ZASLADJIVAC 84/1#  SWEETENER       kom         1.00       125.00       125.00                  105.93
+ 411)    RAZNO 61      KAKAO MRVICE 20g 30/1-VUJOVIC            kom        30.00        36.00      1080.00                  915.25
+ 412)    RAZNO 62      UKRASNE SARENE MRVICE 20g 30/1-VUJOVIC   kom        29.00        36.00      1044.00                  884.75
+ 413)    RAZNO 65      MUSKAT ORAH RENDE 10g 25/1-VUJOVIC       kom        23.00        65.00      1495.00                 1266.95
+ 414)    RAZNO 67      URMA 200g 24/1                           kom         3.00        55.00       165.00                  139.83
+ 415)    REPRO 001     PIRINCANO MLEKO 400 gr ZAJIC             komad       1.00       329.00       329.00                  278.81
+ 416)    REPRO 002     SOJINO MLEKO x 10  ZAJIC                 komad       3.00       305.00       915.00                  775.42
+ 417)    REPRO 003     SOJINO MLEKO PLUS x 10 ZAJIC             komad       2.00       329.00       658.00                  557.63
+ 418)    REPRO 007     GOLD KORNFLEKS  5/1                      KG          2.13       130.00       276.90                  234.66
+ 419)    REPRO 009     HELJDINO MLEKO  400gr 10/1# ZAJIC        komad       2.00       329.00       658.00                  557.63
+ 420)    REPRO 010     GOLD KORNFLEKS INTEGRALNI 5/1            KG          1.81       130.00       235.30                  199.41
+ 421)    REPRO 017     OVSENA KASA SA JABUKOM 260g-10/1#        KOM         3.00       245.00       735.00                  622.88
+ 422)    REPRO 018     OVSENA KASA SA COKOLADOM 260g-10/1#      KOM         2.00       245.00       490.00                  415.25
+ 423)    REPRO 021     OVSENA KASA MALINA I VANILA 260g-10/1#   KOM         2.00       245.00       490.00                  415.25
+
+     Strana 9
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+ 424)    RF 148        PALENTA 5/1                              KG          3.47        70.00       243.04                  205.97
+ 425)    RF 156        KLIK KLAK 2Kg COKOLADA-AMORETI           KG          2.00       400.00       800.00                  677.97
+ 426)    RF01          KOKOS BRASNO                             kg          3.33       140.00       465.64                  394.61
+ 427)    RF02          BADEM SIROVI                             kg          4.25       550.00      2339.70                 2166.39
+ 428)    RF04          PRZENI (VAKUM) KIKIRIKI 2/1              kg          1.80       200.00       360.60                  305.59
+ 429)    RF05          INTEGRALNE GRISINE 2/1                   kg          3.05       210.00       640.50                  542.80
+ 430)    RF06          INTEGRALNE GRISINE LJUTE 2/1             kg          1.60       210.00       336.00                  284.75
+ 431)    RF07          MEDENJAK 500g 16/1# DAKI                 komad       2.00        90.00       180.00                  152.54
+ 432)    RF08          SEMENKA BELA PECENA 5 kg                 kg          5.37       360.00      1932.84                 1638.00
+ 433)    RF09          KIKIRIKI PECENI 5/1                      kg          4.25       190.00       807.88                  684.64
+ 434)    RF100         SEME LANA RF                             KG          2.10       110.00       231.00                  195.76
+ 435)    RF103         COKO LESNIK 1.5KG  AMORETI               KG          0.87       370.00       320.42                  271.54
+ 436)    RF107         KIKIRIKI PECEN BLANSIRAN NESLAN 5/1      KG          4.43       210.00       930.72                  788.75
+ 437)    RF12          SUSAM                                    kg          5.87       250.00      1468.00                 1244.07
+ 438)    RF13          SOJA PECENA  - RULEX    5/1              kg          3.20       150.00       480.00                  406.78
+ 439)    RF135         INTEG.RAZANO BRASNO 1kg 10/1             KG          9.00        85.00       765.00                  708.33
+ 440)    RF136         INTEG.PSENICNO BRASNO 1kg 10/1           KG          9.00        58.00       522.00                  483.33
+ 441)  * RF137         BADEM SIROVI-NONPAREL  22.68KG           KG         -0.07       550.00                    -37.40     -34.63
+ 442)  * RF145         HELJDINO BRASNO 1/1 5/1#                 KG          0.00       180.00                                 0.00
+ 443)    RF146         SUVA SMOKVA 200gr 60/1#                  kom         3.00        63.00       189.00                  160.17
+ 444)    RF15          PIRINAC                                  kg          4.00       100.00       400.00                  370.37
+ 445)    RF156         AMORETI KAKAO TABLA ZA KOLACE 4kg#       KG          4.67       190.00       887.68                  752.27
+ 446)    RF17          BADEM PECENI 1/1                         kg          2.65       680.00      1799.28                 1524.81
+ 447)    RF18          LESNIK PECENI 1/1                        kg          1.94       920.00      1784.80                 1512.54
+ 448)    RF19          INDIJSKI ORAH PRZENI VAKUM 2/1           kg          1.42       860.00      1219.48                 1033.46
+ 449)    RF21          ORAH JEZGO                               kg          0.84       520.00       437.84                  405.41
+ 450)    RF23          PISTACI                                  kg          0.02       870.00        20.88                   17.69
+ 451)    RF25          KOKICAR                                  kg          4.94        70.00       346.08                  320.44
+ 452)    RF28          LESNIK SIROVI                            KG          1.89       770.00      1451.45                 1343.94
+ 453)    RF36          PREZLA                                   KG          5.00        60.00       300.00                  254.24
+ 454)    RF37          SUPSTITUT MLEKA U PRAHU                  KG          4.10       220.00       901.56                  764.03
+ 455)    RF38          PIRINAC INTEGRALNI                       KG          4.00       160.00       640.00                  592.59
+ 456)    RF39          PIRINAC VITAM.                           KG          4.10       160.00       655.36                  606.81
+ 457)    RF40          PSENICA BELIJA                           KG          4.90        70.00       342.86                  317.46
+ 458)    RF41          GRIZ PSENICNI                            KG          3.80        50.00       190.00                  161.02
+ 459)    RF42          SUVA KAJSIJA 5/1                         KG          5.20       420.00      2182.32                 1849.42
+ 460)    RF43          MAK                                      KG          7.05       220.00      1551.00                 1314.41
+ 461)    RF44          LEBLEBIJA                                KG          3.35       350.00      1172.50                  993.64
+ 462)    RF45          SLIKE ZA TORTU                           KOMAD      19.00        90.00      1710.00                 1449.15
+ 463)    RF46          SECER U PRAHU 1/1 JOKER                  KG          3.02        90.00       271.98                  251.83
+ 464)    RF48          SUNCOKRET OLJUSTEN PECENI SOP 5/1        KG          4.70       220.00      1034.00                  876.27
+ 465)    RF52          GOLICA PECENA 3/1                        KG          2.43       750.00      1819.50                 1541.95
+ 466)    RF532         GOLICA SIROVA 3/1                        KG          1.30       700.00       911.40                  772.37
+ 467)    RF55          BIBER ZRNO                               KG          1.84       440.00       810.48                  686.85
+ 468)    RF62          LIMUNTUS                                 KG          3.00       120.00       360.00                  305.08
+ 469)    RF63          KIM                                      KG          0.97       350.00       340.90                  288.90
+ 470)    RF64          CIMET                                    KG          1.10       190.00       209.00                  177.12
+ 471)    RF65          COKOLADNE MRVICE                         KG          0.80       460.00       368.00                  311.86
+ 472)    RF69          KIKIRIKI PECENI NESLANI 5/1              KG          3.29       210.00       691.32                  585.86
+ 473)    RF71          KUKURUZNO BELO BRASNO 5/1                KG          4.49        70.00       314.30                  291.02
+ 474)    RF72          SOCIVO                                   KG          1.90       160.00       303.36                  280.89
+ 475)    RF75          KOKOS PUSLICA 3KG   - AMORETI            KG          2.40       220.00       527.12                  446.71
+ 476)    RF76          RUM STANGLICE 2.5kg   -  AMORETI         KG          2.44       340.00       830.96                  704.20
+ 477)    RF77          PIRINAC -BALDO                           KG          4.00       140.00       560.00                  518.52
+
+     Strana 10
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+ 478)    RF81          ZACIN 10/1-PRIRODA                       KG          7.33        65.00       476.45                  403.77
+ 479)    RF87          GRIZ KUKURUZNI    5/1                    KG          4.30        65.00       279.50                  236.86
+ 480)    RF88          ZELATIN                                  KG          1.45       860.00      1247.00                 1056.78
+ 481)    RF94          KUKURUZNO ZUTO BRASNO  5/1               KG          0.99        50.00        49.70                   46.02
+ 482)    RF96          KLICE PSENICNE SUSENE  5/1               KG          5.00       170.00       850.00                  720.34
+ 483)    RF97          CILI      1/1                            KG          1.00       590.00       590.00                  500.00
+ 484)    RF98          KARI      1/1                            KG          1.00       340.00       340.00                  288.14
+ 485)    RF99          BELI LUK 1/1                             KG          1.00       210.00       210.00                  177.97
+ 486)    RIGATI 001    TESTENINA SA POVRC.400g 10/1# BEZ HOLEST komad       3.00        75.00       225.00                  190.68
+ 487)    RIGATI 002    TESTENINA OD HELJDE 300g 10/1# (tockovi) komad       2.00        85.00       170.00                  144.07
+ 488)    RIGATI 003    TESTENINA INTEGRALNA-SPIRALA 400g 10/1#  komad       2.00        65.00       130.00                  110.17
+ 489)    RINK 02       ZELE KRISKE LUBENICE 3/1                 KG          3.00       330.00       990.00                  838.98
+ 490)    RINK 03       ZELE KRISKE MIX 3/1                      KG          2.62       330.00       865.26                  733.27
+ 491)    RINK 04       ROLOVANI ZELE 3/1                        KG          3.00       380.00      1140.00                  966.10
+ 492)    RNF 010       PAHULJE OVSENE   5 KG                    KG          1.82       110.00       200.20                  169.66
+ 493)    RNF 011       PAHULJE JECMENE      5 KG                KG          3.85        85.00       327.25                  277.33
+ 494)    RNF 012       PAHULJE PSENICNE     5 KG                KG          3.45        75.00       258.75                  219.28
+ 495)    RNF 013       PAHULJE RAZANE       5 KG                KG          3.75        85.00       318.75                  270.13
+ 496)    RNF 015       PSENICA CRVENA                           KG          5.00        55.00       275.00                  254.63
+ 497)    RNF 016       BIBER BELI ZRNO                          KG          1.00       620.00       620.00                  525.42
+ 498)    RNF 020       SUVO POVRCE 5/1                          KG          4.78       450.00      2152.80                 1824.41
+ 499)    RNF 022       BIBER BELI MLEVENI                       KG          1.00       660.00       660.00                  559.32
+ 500)    RNF 025       ZUTI SECER      0.5 KG  20/1             KOM         3.00       130.00       390.00                  330.51
+ 501)    RNF 026       SUNCOKRET SIROV   5/1                    KG          5.00        90.00       450.00                  416.67
+ 502)    RNF 028       DJUMBIR   1 KG                           KG          0.75       470.00       354.38                  300.32
+ 503)    RNF 031       PROSO NEOLJUSTENI                        KG          4.30        80.00       344.00                  318.52
+ 504)    RNF 033       GERSLA - OLJUSTENI JECAM                 KG          4.70        50.00       235.00                  217.59
+ 505)    RNF 034       PROSO OLJUSTEN                           KG          4.34       120.00       521.04                  482.44
+ 506)    RNF 035       BRAZILSKI ORAH                           KG          1.02       620.00       634.88                  587.85
+ 507)    RNF 036       OVAS    OLJUSTENI                        KG          4.65        80.00       372.00                  344.44
+ 508)    RNF 037       OVAS NEOLJUSTENI                         KG          5.00        50.00       250.00                  231.48
+ 509)    RNF 038       SUNCOKRET OLJUSTEN SIROV SOS 5 KG        KG          2.19       160.00       351.04                  325.04
+ 510)    RNF 042       RIZITA - cok.sa rizom 1.6 kg - AMORETI   KG          1.46       370.00       540.94                  458.42
+ 511)    RNF 044       SECERNE MRVICE U BOJI                    KG          0.90       460.00       414.00                  350.85
+ 512)    RNF 045       SUVA SLJIVA                              KG          3.33       150.00       499.50                  423.31
+ 513)    RNF 058       SUVO GROZDJE SVETLO                      KG          3.03       220.00       666.82                  565.10
+ 514)    RNF 060       KIKIRIKI U KARAMELI I SUSAMU 1/1         KG          1.92       400.00       768.40                  651.19
+ 515)    RNF 063       KRCKO INTEGRALNI KEKS 3KG -AMORETI       KG          2.30       220.00       506.44                  429.19
+ 516)    RNF 067       KREMKO KREM 1/1  - BILJANA               KG          3.00       235.00       705.00                  597.46
+ 517)    RNF 068       KREMKO KREM 0.5KG - BILJANA              KOMAD       3.00       130.00       390.00                  330.51
+ 518)    RNF 082       EXTRA SUNCOKRET PECENI 5/1               KG          6.55       140.00       916.58                  776.76
+ 519)    RNF 085       ZELENA KAFA 14gr    15TK                 KOM        15.00       165.00      2475.00                 2097.46
+ 520)    ROSA 01       ROSA NEGAZIRANA VODA 1.5L  6/1       541 KOM         6.00        45.00       270.00                  228.81
+ 521)    ROSA 05       ROSA NEGAZIRANA 6L/1***BALON***          KOM         1.00       120.00       120.00                  101.69
+ 522)    ROSA 06       ROSA NEGAZ.VODA 0.5L 24/1                KOM        19.00        30.00       570.00                  483.05
+ 523)  * RUBIN 001     VINJAK 40 %  1 X 6 kom -  RUBIN          komad       0.00       570.00                                 0.00
+ 524)  * SAD 001       GORKI GORKI 1L 6/1#                      komad       0.00       750.00                                 0.00
+ 525)    SL 01         PETIT BEURE 6/1-SL P9B                   KG          2.95       190.00       560.12                  474.68
+ 526)    SL 05         KOKTEL KENDI 1/1 6kg-SL E8C              KG          0.92       320.00       295.04                  250.03
+ 527)    SL 06         COKO BISKVIT-MILK 4/1-SL CM9             KG          1.80       480.00       862.08                  730.58
+ 528)    SL 10         ORANGE BISKVIT 4/1-SL B9O                KG          3.24       380.00      1230.82                 1043.07
+ 529)    SL 11         PARTI 5/1-SL S9P                         KG          4.21       230.00       967.38                  819.81
+ 530)  * SL 173        BONI TOP - tuba 30X25gr.   6/# A1BT      KOMAD       0.00        23.00                                 0.00
+ 531)    SL 176        COKO KVATRO RF 5/1  C9Q                  KG          4.60       480.00      2209.92                 1872.81
+
+     Strana 11
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+ 532)    SL 195        EUROVAFEL 180g 14kom/1  E2L              komad       1.00        96.00        96.00                   81.36
+ 533)    SL 210        BEVITA 4/1# RF B8K                       KG          2.32       160.00       370.56                  314.03
+ 534)    SL 22         ISLERI 3/1-SL B9I                        KG          1.60       360.00       575.28                  487.53
+ 535)    SL 221        ISLERI EUROKREM RF B9E 3kg               KG          3.00       470.00      1410.00                 1194.92
+ 536)    SL 24         KAKAO KREM 4.2kg-SL KK9                  KG          3.08       360.00      1108.80                  939.66
+ 537)    SL 25         KVIKERSI 250g 15kom-SL SK4               KOM        10.00        60.00       600.00                  508.47
+ 538)    SL 26         MILKI KARAMELA 1KG-SL EM8   6/1#         KG          1.99       370.00       736.30                  623.98
+ 539)    SL 97         EUROCREM STICKS 100g Z2E 30/1#           komad       5.00        43.00       215.00                  182.20
+ 540)    SOJA 01       SOJIN LECITIN 350gr  20/1#               komad       1.00       275.00       275.00                  233.05
+ 541)    SOJA 05       SOJA LJUSPICE 15kg                       kg         13.31       170.00      2263.04                 1917.83
+ 542)    SOJA 06       SOJA ODRESCI 12kg                        kg         11.80       350.00      4130.00                 3500.00
+ 543)    SOJA 12       SOJA PASTETA PARADAJZ 50G 6/1#           KOM         6.00        60.00       360.00                  305.08
+ 544)    SOJA 13       SOJA PASTETA PECURKE 50G 6/1#            KOM         6.00        60.00       360.00                  305.08
+ 545)    SPARKI 01     VATROMET SPARKI 12CM  4KOM/1#            komad       4.00        58.00       232.00                  196.61
+ 546)    SPARKI 02     VATROMET SPARKI 25CM  4KOM/1#            komad       4.00       125.00       500.00                  423.73
+ 547)    SPARKI 03     MUZICKA SVECICA                          komad       3.00       125.00       375.00                  317.80
+ 548)    SPARKI 04     BAKARNA BOJA-ZVEZDANI PRAH 20/#          komad       2.00       106.00       212.00                  179.66
+ 549)    SPARKI 05     BRONZANA BOJA-ZVEZDANI PRAH 20/#         komad       2.00       106.00       212.00                  179.66
+ 550)    SPARKI 06     ZLATNA BOJA-ZVEZDANI PRAH 20/#           komad       2.00       106.00       212.00                  179.66
+ 551)    SPARKI 07     SREBRNA BOJA-ZVEZDANI PRAH 20/#          komad       2.00       106.00       212.00                  179.66
+ 552)    SPARKI 08     BISERNA BOJA-ZVEZDANI PRAH 20/#          komad       2.00       106.00       212.00                  179.66
+ 553)    SPARKI 11     SISTALJKA 24/1# PLANET STYLE             komad      20.00        30.00       600.00                  508.47
+ 554)    ST.VITA 002   MARGARIN STONI 5kgSANTA VITA             KOM         6.00        31.50       189.00                  160.17
+ 555)    STARK 01      NAPOLITANKE SA PREL.200G 40kom-STA 10560 KOMAD       4.00        75.00       300.00                  254.24
+ 556)    STARK 02      NAPOLITANKE SA PREL.100G 65kom-STA 10577 KOMAD       2.00        40.00        80.00                   67.80
+ 557)    STARK 03      FAZON 25G 30/1-STARK               10812 KOMAD      30.00        12.00       360.00                  305.08
+ 558)    STARK 04      PISKOTE 210 15Kkom-STARK           30858 KOMAD       5.00        99.00       495.00                  419.49
+ 559)    STARK 05      PISKOTE 105 32Kkom-STARK           30841 KOMAD       3.00        49.00       147.00                  124.58
+ 560)    STARK 09      AVALA 1/1 8/1-STARK                41816 KG          1.00       150.00       150.00                  127.12
+ 561)    STARK 100     ZELJE NARAN.75% KAKAO 75g STARK 20/1#    KOMAD       1.00        95.00        95.00                   80.51
+ 562)    STARK 103     NAJ.ZELJE MINI 150g 12/1# STARK kesica   KOMAD       2.00       163.00       326.00                  276.27
+ 563)    STARK 11      MENAZ 100g 20kom-STARK                   KOMAD       5.00        73.00       365.00                  309.32
+ 564)    STARK 12      MENAZ 200g 20kom-STARK                   KOMAD       3.00       139.00       417.00                  353.39
+ 565)    STARK 17      NAJ.ZELJE 90G 20kom-STARK         13657  KOMAD       4.00        82.00       328.00                  277.97
+ 566)    STARK 18      NAJ.ZELJE 200G 20kom-STARK         13701 KOMAD       2.00       170.00       340.00                  288.14
+ 567)    STARK 21      KREM BANANA 25G 40kom-STARK              KOMAD      48.00        10.00       480.00                  406.78
+ 568)    STARK 22      NO PROBLEM 40G 24kom-STARK               KOMAD      24.00        25.00       600.00                  508.47
+ 569)    STARK 25      SVIT 40g 25kom-STARK               80086 KOMAD      25.00        23.00       575.00                  487.29
+ 570)    STARK 29      SMOKI 50g 40kom-STARK              06912 KOMAD       4.00        23.00        92.00                   77.97
+ 571)    STARK 38      KEKS BETIS 300G 15kom-STARK        42157 KOMAD       2.00        87.00       174.00                  147.46
+ 572)    STARK 45      CAJNI KOLUTICI 800GRX4KOM STARK          KG          1.70       190.00       323.76                  274.37
+ 573)    STARK 65      PRIMA STAPICI 40G  X 64 KOM-STARK        KOMAD       9.00        10.00        90.00                   76.27
+ 574)    STARK 71      CHERRY 200gr 12kom/1#-STARK              komad       1.00       273.00       273.00                  231.36
+ 575)    STARK 97      ZELJE 75g CRNA 75% 20/1# STARK           KOMAD       3.00        95.00       285.00                  241.53
+ 576)    STARK 98      ZELJE ML.KREM 100gr 30/1# STARK          KOMAD       2.00        85.00       170.00                  144.07
+ 577)    SU 33         SU-SUMSKI MIX 1.5l 8/1#                  KOM         7.00        88.00       616.00                  522.03
+ 578)    SUNCE 01      ULJE SUNCE 15/1                          litar       3.00        81.00       243.00                  225.00
+ 579)    SUPER P.001   PUDING COKOLADA 100g 40/1# S.POSITIVE    komad       8.00        17.00       136.00                  115.25
+ 580)    SUPER P.002   PUDING JAGODA 100g 40/1# S.POSITIVE      komad      10.00        14.00       140.00                  118.64
+ 581)    SUPER P.003   PUDING VANILA 100g 40/1# S.POSITIVE      komad      33.00        16.00       528.00                  447.46
+ 582)    SW-FAM 017    PROBAVINO 3KG                            KG          2.91       630.00      1833.30                 1553.64
+ 583)    TAKOVO 06     EURO KREM KOFA 1/1 6kom-TAKOVO           KOMAD       2.00       485.00       970.00                  822.03
+ 584)    TAKOVO 07     EURO KREM CASA 200G 24kom-TAKOVO         KOMAD       2.00       110.00       220.00                  186.44
+ 585)    TAKOVO 08     EURO KREM CINIJA 500g 12kom-TAKOVO       KOMAD       1.00       260.00       260.00                  220.34
+
+     Strana 12
+
+RBr  MK  Sifra                Naziv robe                     J_M         Stanje  Prodajna cena    Vredn +     Vredn -  Por osnov  
+----------------------------------------------------------------------------------------------------------------------------------
+ 586)    TAKOVO 10     GRISKI 40g 65kom-TAKOVO Z1G              KOMAD      10.00        15.00       150.00                  127.12
+ 587)    TAKOVO 15     CAR NA DAR sa KAKAO flips 250gr 12/1 F2K KOMAD       1.00       101.00       101.00                   85.59
+ 588)    TAKOVO 16     CAR NA DAR flips SA MEDOM 200gr 12/1 F2M KOMAD       2.00        87.00       174.00                  147.46
+ 589)    TAKOVO 21     TAKO-DIJET 150 gr    1#/19kom            komad       2.00        72.00       144.00                  122.03
+ 590)    TAKOVO 22     TAKI-LAKI DVOPEK 125gr x 16 kom F2T      komad       4.00        50.00       200.00                  169.49
+ 591)  * TAKOVO 23     VILJAMOVKA 40% 0.7   6/1#                komad       0.00      1085.00                                 0.00
+ 592)    TAKOVO 294    EURODESERT kesa 150gr  15TK              KOM         2.00       180.00       360.00                  305.08
+ 593)    TAKOVO 32     KONCEN.KOKOSIJA SUPA(2x22gr) x 48 DK2K   komad       6.00        35.00       210.00                  177.97
+ 594)    TAKOVO 33     KONCEN.GOVEDJA SUPA (2x22gr) x 48 DK2G   komad       3.00        35.00       105.00                   88.98
+ 595)  * TAKOVO 49     VODKA BALTIK SPECIJAL 40% 1L  6kom#      komad       0.00       450.00                                 0.00
+ 596)    TAKOVO 50     DOMACI RUM 40% 0.100  30kom/1#           komad       4.00        63.50       254.00                  215.25
+ 597)    UFAR 001      DIAMEL 250 gr                            komad       1.00       215.00       215.00                  182.20
+ 598)    UFAR 002      KOMBINOVANA SO 100gr  48kom/1#           komad       3.00        59.00       177.00                  150.00
+ 599)    UKI 001       UKRASI ZA TORTU-UKI                      komad       3.00        65.00       195.00                  165.25
+ 600)  * UVITA 002     ULJE BUNDEVE 250ml 15/1#                 komad       0.00       438.00                                 0.00
+ 601)    UVITA 003     ULJE OD LANA 250ml 15/1 PVC              komad       1.00       255.00       255.00                  216.10
+ 602)    UVITA 004     ULJE OD SUSAMA 250ml 12/1                komad       1.00       290.00       290.00                  245.76
+ 603)    UVITA 008     ULJE OD SOJE 500ml 12/1                  komad       1.00       160.00       160.00                  148.15
+ 604)    VEGA 002      MEKINJE 5/1 VEGA                         KG          4.80        65.00       312.00                  264.41
+ 605)    VEGA 021      PIRINCANO BRASNO 1/1 10/1#               KG          3.00       250.00       750.00                  635.59
+ 606)    VEGA 022      OVSENO BRASNO 0.500g 10/1#               KOM         9.00        59.00       531.00                  450.00
+ 607)    VEGA 023      JECMENO BRASNO 0.500g 10/1#              KOM        10.00        39.00       390.00                  330.51
+ 608)    VEGA 024      GUSTIN 100g 20/1#-VEGA                   KOM        17.00        17.00       289.00                  244.92
+ 609)    VEGA 025      SODA 200g 30/1#-VEGA                     KOM        28.00        29.00       812.00                  688.14
+ 610)    VEKIC 025     MLEVENI KEKS-VEKIC 5/1                   KG          1.97       120.00       236.16                  200.14
+ 611)    VH025         TUTKU  210g  18kom                       komad       5.00       105.00       525.00                  444.92
+ 612)    VINCINI 001   VINCINI KORE SVETLE 700g  5/#            komad       1.00       260.00       260.00                  220.34
+ 613)    VINCINI 002   VINCINI KORE TAMNE  700g  5/#            komad       1.00       260.00       260.00                  220.34
+ 614)    VITASLAD 001  MED ZA DIJABETICARE   0.25               komad       2.00       203.00       406.00                  344.07
+ 615)    VIVA 01       SURUTKA U PRAHU 250g 60/1# JEZ           komad       3.00        72.00       216.00                  183.05
+ 616)    VIVA 02       DEKSTROZA 250 gr 60/1# JEZ               komad       3.00        54.00       162.00                  137.29
+ 617)    VIVA 05       FRUKTOZA 250gr  60/1#  JEZ               komad       2.00       104.00       208.00                  176.27
+ 618)  * VOCAR 001     CVEKLA PASTERIZOVANA 700g 12/1# IRIKOM   komad       0.00        64.00                                 0.00
+ 619)  * WALTZ 001     CREAM ROLLS LESNIK 2,5 kg WALTZ          KG          0.00       360.00                                 0.00
+ 620)  * WALTZ 003     CREAM ROLLS JAGODA 2/1kg WALTZ           KG          0.00       360.00                                 0.00
+ 621)    ZRNCO 001     PSENICA 250gr 12/1#     ZRNCO            komad       3.00       145.00       435.00                  402.78
+ 622)    ZRNCO 002     RAZ 250gr 12/1#         ZRNCO            komad       2.00       145.00       290.00                  268.52
+ 623)    ZRNCO 003     JECAM 250 gr 12/1#      ZRNCO            komad       3.00       145.00       435.00                  402.78
+ 624)    ZRNCO 004     OVAS 250 gr 12/1#       ZRNCO            komad       2.00       145.00       290.00                  268.52
+ 625)    ZVK 002       SPEARMINT 30kom/1   20TK - ORBIT         PAK        28.00        40.00      1120.00                  949.15
+ 626)    ZVK 003       EUCALYPTUS 30kom/1   20TK - ORBIT        PAK        30.00        40.00      1200.00                 1016.95
+ 627)    ZVK 025       APPLE 30kom/1 20TK - ORBIT               PAK        30.00        40.00      1200.00                 1016.95
+                                                                                              ------------ ------------ ----------
+                                                                                                 304923.17       -41.09  260232.75
+

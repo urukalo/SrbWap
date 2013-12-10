@@ -1,0 +1,62 @@
+<?
+header("Content-type: text/vnd.wap.wml");
+
+print '<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>';
+include "./ini.php";
+print '
+<card title="Registration">
+<p><small>
+Nickname-:*</small><br/>
+<input type="text" name="login" maxlength="20"/><br/>
+<small>Password:*</small><br/>
+<input type="password" name="pass" maxlength="20"/><br/>
+<small>Name-Ime:*</small><br/>
+<input type="text" name="name" maxlength="20"/><br/>
+<small>Sex-Pol:*</small><br/>
+<select name="sex" title="Пол">
+<option value="m">Мale-Musko</option>
+<option value="zh">Female-Zensko</option></select><br/>
+<small>Date Of Birth-Datum rodjenja:</small><br/>
+<input size="2" name="bday" maxlength="2" format="*N"/>-<input size="2" name="bmonth" maxlength="2" format="*N"/>-<input size="4" name="byear" maxlength="4" format="*N"/><br/>
+<small>Location-Mesto boravka:</small><br/>
+<input type="text" name="live" maxlength="30"/><br/>
+<small>Phone model-Model mobilnog:</small><br/>
+<input type="text" name="mobile" maxlength="20"/><br/>
+<small>Mobile Operator-Operater:</small><br/>
+<input type="text" name="operator" maxlength="20"/><br/>
+<small>E-mail:</small><br/>
+<input type="text" name="email" maxlength="30"/><br/>
+<small>WAP-site:</small><br/>
+<input type="text" name="wapurl" maxlength="30" value="http://"/><br/>
+<small>WEB-site:</small><br/>
+<input type="text" name="weburl" maxlength="30" value="http://"/><br/>
+<small>ICQ:</small><br/>
+<input type="text" name="icq" maxlength="30" format="*N"/><br/>
+<small>About You-O vama:</small><br/>
+<input type="text" name="about" maxlength="50"/><br/>
+<small><anchor>Register
+<go href="reg.php" method="post">
+<postfield name="login" value="$(login)"/>
+<postfield name="pass" value="$(pass)"/>
+<postfield name="name" value="$(name)"/>
+<postfield name="email" value="$(email)"/>
+<postfield name="wapurl" value="$(wapurl)"/>
+<postfield name="mobile" value="$(mobile)"/>
+<postfield name="operator" value="$(operator)"/>
+<postfield name="weburl" value="$(weburl)"/>
+<postfield name="icq" value="$(icq)"/>
+<postfield name="live" value="$(live)"/>
+<postfield name="about" value="$(about)"/>
+<postfield name="sex" value="$(sex)"/>
+<postfield name="byear" value="$(byear)"/>
+<postfield name="bday" value="$(bday)"/>
+<postfield name="bmonth" value="$(bmonth)"/>
+</go></anchor><br/>
+<a href="index.php">Back</a><br/><a href="http://wap.srb.co.yu">SRB W@P</a></small>
+</p>
+</card>
+</wml>';
+?>

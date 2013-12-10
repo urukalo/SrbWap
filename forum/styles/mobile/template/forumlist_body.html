@@ -1,0 +1,38 @@
+<!-- BEGIN forumrow -->
+	<!-- IF (forumrow.S_IS_CAT and not forumrow.S_FIRST_ROW) or forumrow.S_NO_CAT  -->
+
+	<!-- ENDIF -->
+
+	<!-- IF forumrow.S_IS_CAT or forumrow.S_FIRST_ROW  or forumrow.S_NO_CAT  -->
+
+    <!-- IF forumrow.S_IS_CAT -->
+<p><a href="{forumrow.U_VIEWFORUM}">{forumrow.FORUM_NAME}</a><!-- ELSE -->{L_FORUM}<!-- ENDIF -->
+	<!-- ENDIF -->
+
+	<!-- IF not forumrow.S_IS_CAT -->
+<br />----<br />
+            <!-- IF forumrow.FORUM_IMAGE -->{forumrow.FORUM_IMAGE}<!-- ENDIF -->
+					<a href="{forumrow.U_VIEWFORUM}" >{forumrow.FORUM_NAME}</a>({forumrow.TOPICS}/{forumrow.POSTS})<br />
+					{forumrow.FORUM_DESC}
+					<!-- IF forumrow.MODERATORS -->
+						<br /><strong>{forumrow.L_MODERATOR_STR}:</strong> {forumrow.MODERATORS}
+					<!-- ENDIF -->
+					<!-- IF forumrow.SUBFORUMS --><br /><strong>{forumrow.L_SUBFORUM_STR}</strong> {forumrow.SUBFORUMS}<!-- ENDIF -->
+				
+				<!-- IF forumrow.CLICKS -->
+					<br />{L_REDIRECTS}: {forumrow.CLICKS}
+				<!-- ELSEIF not forumrow.S_IS_LINK -->
+								
+						<!-- IF forumrow.LAST_POST_TIME --><br />{L_LAST_POST}{L_POST_BY_AUTHOR} {forumrow.LAST_POSTER_FULL}
+						<a href="{forumrow.U_LAST_POST}">{LAST_POST_IMG}</a> <br />{L_POSTED_ON_DATE} {forumrow.LAST_POST_TIME}<!-- ELSE --><br />{L_NO_POSTS}<!-- ENDIF -->
+				<!-- ENDIF -->
+			
+	<!-- ENDIF -->
+
+	<!-- IF forumrow.S_LAST_ROW -->
+	<br />
+	<!-- ENDIF -->
+
+<!-- BEGINELSE -->
+<strong>{L_NO_FORUMS}</strong>
+<!-- END forumrow -->

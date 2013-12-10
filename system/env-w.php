@@ -1,0 +1,13 @@
+<?
+//konstante
+$pwd="D:\\Web_Server\\wap-new\\";
+$index="http://wap-new/";
+$systemdir=$pwd."system\\";
+$includedir=$pwd."include\\";
+$langdir=$pwd."lang\\";
+$countdir=$systemdir."counter\\";
+$wurfldir=$systemdir."wurfl\\";
+$smartydir=$systemdir."Smarty\\";
+$picdir=$pwd."pic\\";
+$temedir=$pwd."teme\\";
+?>

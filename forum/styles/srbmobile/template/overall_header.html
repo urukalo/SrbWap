@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="{S_CONTENT_ENCODING}"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN"
+    "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{S_USER_LANG}">
+
+<head>
+<title>{SITENAME}:<!-- IF S_IN_MCP -->{L_MCP}:<!-- ELSEIF S_IN_UCP -->{L_UCP}:<!-- ENDIF -->{PAGE_TITLE}</title>
+
+<link href="http://wap.srb.rs/teme/standard.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body>
+
+<a name="top"></a>
+
+		<table width="100%" cellspacing="0" align="center">
+        
+		<tr>
+			<td><a href="{U_INDEX}">{SITE_LOGO_IMG}</a></td>
+		</tr>
+        <tr>
+			<td><h1>{SITENAME}</h1>{SITE_DESCRIPTION}</td>
+		</tr>
+
+		<tr align="center">
+			<td>
+				<a href="{U_FAQ}"><img src="{T_THEME_PATH}/images/icon_mini_faq.gif" width="12" height="13" alt="*" /> {L_FAQ}</a>
+				<!-- IF S_DISPLAY_SEARCH -->&nbsp; &nbsp;<a href="{U_SEARCH}"><img src="{T_THEME_PATH}/images/icon_mini_search.gif" width="12" height="13" alt="*" /> {L_SEARCH}</a><!-- ENDIF -->
+				<!-- IF not S_IS_BOT -->
+					<!-- IF S_DISPLAY_MEMBERLIST -->&nbsp; &nbsp;<a href="{U_MEMBERLIST}"><img src="{T_THEME_PATH}/images/icon_mini_members.gif" width="12" height="13" alt="*" /> {L_MEMBERLIST}</a><!-- ENDIF -->
+
+				<!-- ENDIF -->
+			
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<!-- IF not S_IS_BOT -->
+                <!-- IF S_USER_LOGGED_IN --><a href="{U_PROFILE}"><img src="{T_THEME_PATH}/images/icon_mini_profile.gif" width="12" height="13" alt="*" />{L_PROFILE} </a>&nbsp; &nbsp;<!-- ENDIF --> 
+                <a href="{U_LOGIN_LOGOUT}"><img src="{T_THEME_PATH}/images/icon_mini_login.gif" width="12" height="13" alt="*" /> {L_LOGIN_LOGOUT}</a>&nbsp;<!-- ENDIF -->
+				<!-- IF U_RESTORE_PERMISSIONS --> &nbsp;<a href="{U_RESTORE_PERMISSIONS}"><img src="{T_THEME_PATH}/images/icon_mini_login.gif" width="12" height="13" alt="*" /> {L_RESTORE_PERMISSIONS}</a><!-- ENDIF -->
+				<!-- IF S_BOARD_DISABLED and S_USER_LOGGED_IN --> &nbsp;<span style="color: red;">{L_BOARD_DISABLED}</span><!-- ENDIF -->
+				<!-- IF not S_IS_BOT -->
+					<!-- IF S_USER_LOGGED_IN -->
+						<!-- IF S_DISPLAY_PM --> &nbsp;<a href="{U_PRIVATEMSGS}"><img src="{T_THEME_PATH}/images/icon_mini_message.gif" width="12" height="13" alt="*" /> {PRIVATE_MESSAGE_INFO}<!-- IF PRIVATE_MESSAGE_INFO_UNREAD -->, {PRIVATE_MESSAGE_INFO_UNREAD}<!-- ENDIF --></a><!-- ENDIF -->
+					<!-- ELSEIF S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) --> &nbsp;<a href="{U_REGISTER}"><img src="{T_THEME_PATH}/images/icon_mini_register.gif" width="12" height="13" alt="*" /> {L_REGISTER}</a>
+					<!-- ENDIF -->
+				<!-- ENDIF -->
+			</td>
+		</tr>
+		
+
+
+
+	<!-- IF S_DISPLAY_SEARCH -->
+	<tr>
+	  <td>
+		
+			<a href="{U_SEARCH_UNANSWERED}">{L_SEARCH_UNANSWERED}</a> | <a href="{U_SEARCH_ACTIVE_TOPICS}">{L_SEARCH_ACTIVE_TOPICS}</a>
+		
+		<!-- IF S_USER_LOGGED_IN -->
+		
+			 | <a href="{U_SEARCH_UNREAD}">{L_SEARCH_UNREAD}</a> | <a href="{U_SEARCH_NEW}">{L_SEARCH_NEW}</a> | <a href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a>
+		
+		<!-- ENDIF -->
+	</td></tr>
+	<!-- ENDIF -->
+</table>
+	<!-- INCLUDE breadcrumbs.html -->
+
+
+
+

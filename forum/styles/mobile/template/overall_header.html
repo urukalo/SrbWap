@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="{S_CONTENT_ENCODING}"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN"
+    "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{S_USER_LANG}">
+
+<head>
+<title>{SITENAME}:<!-- IF S_IN_MCP -->{L_MCP}:<!-- ELSEIF S_IN_UCP -->{L_UCP}:<!-- ENDIF -->{PAGE_TITLE}</title>
+
+<link href="http://wap.srb.rs/teme/standard.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body>
+
+<p>
+<a href="{U_INDEX}" title="{L_INDEX}">{SITE_LOGO_IMG}</a><br/>
+<big>{SITENAME}</big><br/>
+<b>{SITE_DESCRIPTION}</b>
+
+<br/>	
+
+		
+
+
+<!-- IF not S_IS_BOT and S_USER_LOGGED_IN -->
+			<a href="{U_PROFILE}" title="{L_PROFILE}" >{L_PROFILE}</a>
+				<!-- IF S_DISPLAY_PM -->
+ (<a href="{U_PRIVATEMSGS}">{PRIVATE_MESSAGE_INFO}</a>)<!-- ENDIF --> &bull; 
+					<a href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a>
+					<br/>
+			<!-- ENDIF -->
+<a href="{U_FAQ}" title="{L_FAQ_EXPLAIN}">{L_FAQ}</a>
+				<!-- IF not S_IS_BOT -->
+					<!-- IF S_DISPLAY_MEMBERLIST -->
+<a href="{U_MEMBERLIST}" title="{L_MEMBERLIST_EXPLAIN}">{L_MEMBERLIST}</a>
+<!-- ENDIF -->
+					<!-- IF not S_USER_LOGGED_IN --><a href="{U_REGISTER}">{L_REGISTER}</a><!-- ENDIF -->
+					<a href="{U_LOGIN_LOGOUT}" title="{L_LOGIN_LOGOUT}" >{L_LOGIN_LOGOUT}</a>
+				<!-- ENDIF -->
+
+<br/><a href="{U_INDEX}" >{L_INDEX}</a>			
+<!-- BEGIN navlinks -->
+ <strong>&#8249;</strong> <a href="{navlinks.U_VIEW_FORUM}">{navlinks.FORUM_NAME}</a>
+<!-- END navlinks -->
+			
+	
+		 <!-- IF S_BOARD_DISABLED and S_USER_LOGGED_IN and (U_MCP or U_ACP) --> 
+				<strong>{L_INFORMATION}:</strong> {L_BOARD_DISABLED}
+		<!-- ENDIF --></p>
